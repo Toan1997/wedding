@@ -1,227 +1,87 @@
-@extends('layouts.master' , [])
+@extends('layouts.master')
 @section('content')
 
-<body class="home page-template-default page page-id-949 chrome cata-scheme-main-color header-layout-right header-overlap wpb-js-composer js-comp-ver-6.8.0 vc_responsive">
+<body class="page-template-default page page-id-5416 theme-onelove woocommerce-no-js chrome menu- header-layout-right header-overlap wpb-js-composer js-comp-ver-6.8.0 vc_responsive">
     <div id="catanis-loader">
-        <div class="catanis-loader-wraper cata-style2">
-            <div class="heart"></div>
-            <div class="heart heart2"></div>
-            <div class="heart heart3 pinkHeart"></div>
-            <div class="heart heart4 fushiaHeart"></div>
-            <div class="heart hear5 pinkHeart"></div>
+        <div class="catanis-loader-wraper cata-style1">
+            <div class="loader-heart heart1"><span class="fa fa-heart"></span></div>
+            <div class="loader-heart heart2"><span class="fa fa-heart"></span></div>
+            <div class="loader-heart heart3"><span class="fa fa-heart"></span></div>
         </div>
     </div>
     <div class="cata-body-wrapper">
         <div id="home"></div>
         <div id="cata-template-wrapper" class="template-wrapper">
-            <header id="cata-main-header" class="cata-header v1 cata-light" data-header-fixed="true">
+            <header id="cata-main-header" class="cata-header v3 cata-light section-fwidth" data-header-fixed=true>
                 <div class="header-bottom">
-                    <div class="header-bottom-container container no-ctent">
+                    <div class="header-bottom-container no-ctent">
                         <div class="header-content-left">
-                            <h2 class="header-logo">
-                                <a href="https://sweetinz.catanisthemes.com/" title="Home" class="main-logo"><img src="http://sweetinz.catanisthemes.com/wp-content/uploads/2018/06/light_logo.svg" alt="Sweetinz" /></a><a href="https://sweetinz.catanisthemes.com/" title="Home" class="sticky-logo"><img src="http://sweetinz.catanisthemes.com/wp-content/uploads/2018/06/sticky_logo.svg" alt="Sweetinz" /></a>
-                            </h2>
+                            <h2 class="header-logo"><a href="http://onelove.catanisthemes.com/" title="Home" class="main-logo"><img src="http://onelove.catanisthemes.com/wp-content/themes/onelove/images/default/light_logo.png" alt="One Love &#8211; A Perfect Wedding Multipurpose WordPress Theme" /></a><a href="http://onelove.catanisthemes.com/" title="Home" class="sticky-logo"><img src="http://onelove.catanisthemes.com/wp-content/themes/onelove/images/default/sticky_logo.png" alt="One Love &#8211; A Perfect Wedding Multipurpose WordPress Theme" /></a></h2>
                         </div>
+                        <div class="header-content-right"></div>
                         <nav id="catanis_menu" class="catanis-main-menu">
-                            <ul id="menu-onepage-menu" class="main-menu cata-main-menu">
-                                <li id="menu-item-453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-453">
-                                    <a href="#home"><span class="cata-item">HOME</span></a>
-                                </li>
-                                <li id="menu-item-454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-454">
-                                    <a href="#ourstory"><span class="cata-item">OUR STORY</span></a>
-                                </li>
-                                <li id="menu-item-455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-455">
-                                    <a href="#whenwhere"><span class="cata-item">WHEN &#038; WHERE</span></a>
-                                </li>
-                                <li id="menu-item-456" class="logo menu-item menu-item-type-custom menu-item-object-custom menu-item-456">
-                                    <a href="#gallery"><span class="cata-item">OUR GALLERY</span></a>
-                                </li>
-                                <li id="menu-item-457" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-457">
-                                    <a href="#bestfriends"><span class="cata-item">BEST FRIENDS</span></a>
-                                </li>
-                                <li id="menu-item-458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-458">
-                                    <a href="#events"><span class="cata-item">EVENTS</span></a>
-                                </li>
-                                <li id="menu-item-1504" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1504">
-                                    <a href="#rsvp"><span class="cata-item">RSVP</span></a>
-                                </li>
+                            <ul id="menu-onepage-02-menu" class="main-menu cata-main-menu">
+                                <li id="menu-item-5441" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5441"><a href="#home"><span class="cata-item">HOME</span></a></li>
+                                <li id="menu-item-5442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5442"><a href="#bridegroom"><span class="cata-item">BRIDE &#038; GROOM</span></a></li>
+                                <li id="menu-item-5443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5443"><a href="#ourstory"><span class="cata-item">OUR STORY</span></a></li>
+                                <li id="menu-item-5444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5444"><a href="#whenwhere"><span class="cata-item">WHEN &#038; WHERE</span></a></li>
+                                <li id="menu-item-5445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5445"><a href="#bestfriends"><span class="cata-item">BEST FRIENDS</span></a></li>
+                                <li id="menu-item-5446" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5446"><a href="#journey"><span class="cata-item">JOURNEY</span></a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <section id="mobile-nav">
                     <div class="section-one mobile-section">
-                        <h2 class="logo">
-                            <a href="https://sweetinz.catanisthemes.com/" title="Home" class="main-logo">
-                                <img src="http://sweetinz.catanisthemes.com/wp-content/uploads/2018/06/dark_logo.svg" alt="Sweetinz" />
-                            </a>
-                        </h2>
-                        <div class="mobile-nav-icon-toggle">
-                            <span class="mobi-nav-btn ti-menu"></span>
-                        </div>
+                        <h2 class="logo"> <a href="http://onelove.catanisthemes.com/" title="Home" class="main-logo"> <img src="http://onelove.catanisthemes.com/wp-content/themes/onelove/images/default/dark_logo.png" alt="One Love &#8211; A Perfect Wedding Multipurpose WordPress Theme"> </a> </h2>
+                        <div class="mobile-nav-icon-toggle"> <span class="mobi-nav-btn ti-menu"></span></div>
                     </div>
                 </section>
             </header>
-            <div id="cata-page-title" class="cata-page-title cata-style2 header-v1 cata-page-title-revslider cata-fullscreen">
-                <div class="page-header-wrap" data-bg-type="revslider" data-height="50" data-bg-position="center">
-                    <div class="container pagetitle-contents">
-                        <div class="pagetitle-contents-inner">
-                            <div style="text-align: initial">
-                                <link href="https://fonts.googleapis.com/css?family=Playfair+Display:italic" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-                                <div id="rev_slider_10_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-source="gallery" style="background: transparent; padding: 0px">
-                                    <div id="rev_slider_10_1" class="rev_slider fullscreenbanner" style="display: none" data-version="5.4.7.4">
-                                        <ul>
-                                            <li data-index="rs-24" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-slider_001.jpg" alt="" title="green-home1-slider_001" width="1920" height="1080" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina />
-                                                <div class="tp-caption tp-resizeme slider-main-font" id="slide-24-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','25']" data-fontsize="['110','110','110','70']" data-lineheight="['110','110','110','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":330,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
-                              z-index: 5;
-                              white-space: nowrap;
-                              font-size: 110px;
-                              line-height: 110px;
-                              font-weight: 400;
-                              color: #ffffff;
-                              letter-spacing: 0px;
-                            ">
-                                                    Kate & Mike
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-24-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-81','-81','-81','-52']" data-lineheight="['30','30','30','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":850,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
-                              z-index: 6;
-                              white-space: nowrap;
-                              font-size: 26px;
-                              line-height: 30px;
-                              font-weight: 400;
-                              color: #ffffff;
-                              letter-spacing: 0px;
-                              font-family: Playfair Display;
-                              font-style: italic;
-                            ">
-                                                    The Wedding Celebration Of
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-24-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-149','-149','-149','-117']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":1700,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7">
-                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/line_top.png" alt="" data-ww="['220px','220px','220px','220px']" data-hh="['35px','35px','35px','35px']" width="220" height="35" data-no-retina />
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-24-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8">
-                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/line_bottom.png" alt="" data-ww="['220px','220px','220px','220px']" data-hh="['35px','35px','35px','35px']" width="220" height="35" data-no-retina />
-                                                </div>
-                                            </li>
-                                            <li data-index="rs-27" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-slider_002.jpg" alt="" title="green-home1-slider_002" width="1920" height="1080" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina />
-                                                <div class="tp-caption tp-resizeme slider-main-font" id="slide-27-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','25']" data-fontsize="['110','110','110','70']" data-lineheight="['110','110','110','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":330,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
-                              z-index: 5;
-                              white-space: nowrap;
-                              font-size: 110px;
-                              line-height: 110px;
-                              font-weight: 400;
-                              color: #ffffff;
-                              letter-spacing: 0px;
-                            ">
-                                                    She Said Yes
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-27-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-79','-79','-79','-52']" data-lineheight="['30','30','30','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":850,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
-                              z-index: 6;
-                              white-space: nowrap;
-                              font-size: 26px;
-                              line-height: 30px;
-                              font-weight: 400;
-                              color: #ffffff;
-                              letter-spacing: 0px;
-                              font-family: Playfair Display;
-                              font-style: italic;
-                            ">
-                                                    We Decide To Live Happily Together
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-27-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-149','-149','-149','-117']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":1700,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7">
-                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/line_top.png" alt="" data-ww="['220px','220px','220px','220px']" data-hh="['35px','35px','35px','35px']" width="220" height="35" data-no-retina />
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-27-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8">
-                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/line_bottom.png" alt="" data-ww="['220px','220px','220px','220px']" data-hh="['35px','35px','35px','35px']" width="220" height="35" data-no-retina />
-                                                </div>
-                                            </li>
-                                            <li data-index="rs-28" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                                <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-slider_003.jpg" alt="" title="green-home1-slider_003" width="1920" height="1080" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina />
-                                                <div class="tp-caption tp-resizeme slider-main-font" id="slide-28-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','25']" data-fontsize="['110','110','110','70']" data-lineheight="['110','110','110','70']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":330,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
-                              z-index: 5;
-                              white-space: nowrap;
-                              font-size: 110px;
-                              line-height: 110px;
-                              font-weight: 400;
-                              color: #ffffff;
-                              letter-spacing: 0px;
-                            ">
-                                                    We're Married
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-28-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-79','-79','-79','-52']" data-lineheight="['30','30','30','26']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":850,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
-                              z-index: 6;
-                              white-space: nowrap;
-                              font-size: 26px;
-                              line-height: 30px;
-                              font-weight: 400;
-                              color: #ffffff;
-                              letter-spacing: 0px;
-                              font-family: Playfair Display;
-                              font-style: italic;
-                            ">
-                                                    My Love For You Is a Journey
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-28-layer-3" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-149','-149','-149','-117']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":1700,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7">
-                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/line_top.png" alt="" data-ww="['220px','220px','220px','220px']" data-hh="['35px','35px','35px','35px']" width="220" height="35" data-no-retina />
-                                                </div>
-                                                <div class="tp-caption tp-resizeme" id="slide-28-layer-4" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['107','107','107','100']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="image" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8">
-                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/line_bottom.png" alt="" data-ww="['220px','220px','220px','220px']" data-hh="['35px','35px','35px','35px']" width="220" height="35" data-no-retina />
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div id="main-container-wrapper">
                 <div class="page-template cata-template-fullwidth">
                     <div id="cata-main-content" class="col-md-12">
-                        <div id="page-949" class="post-949 page type-page status-publish hentry">
+                        <div id="page-5416" class="post-5416 page type-page status-publish hentry">
                             <div class="entry-content">
-                                <section class="cata-section cata-section-container-stretch" id="whenwhere" style="
-                      padding-top: 100px;
-                      padding-bottom: 200px;
-                      margin-top: -100px;
-                      margin-bottom: 0;
-                      background-color: #f7f7f7;
-                    ">
-                                    <div class="selection-texture tt-bottom has-animation" data-animation-type="fadeInUp" data-animation-delay="50">
-                                        <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-flower.png" alt="Texture bottom" />
-                                    </div>
+                                <section class="cata-section cata-section-container-stretch row-full-height row-columns-middle cata-row-flex" id="section_n5u0b6cwa0" style="margin-bottom:0;background-image: url(http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-background_4.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;">
+                                    <div class="selection-texture tt-bottom"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-bottom.png" alt="Texture bottom" /></div>
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_lwlmz3y8ko">
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_k5worr83zm">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <h3 id="title_ob07u" class="heading-title style2 text-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <span>28 - 12 - 2023</span>
-                                                    </h3>
-                                                    <div id="cata_empty_space_e7xtd" class="cata-empty-space cata-element" style="height: 15px"></div>
-                                                    <div id="cata_column_text_jn50s" class="cata-text-column cata-element vc_custom_1521185342549 cata-black-color has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
+                                                    <div id="cata_custom_heading_406ztoxk96" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 170px; text-align:center;color: #ffffff; line-height: 170px; " class="ipad-fontsize-120px mobile-fontsize-75px">Toàn &amp; Nguyệt</h2>
+                                                    </div>
+                                                    <div id="cata_custom_heading_khrrdcam7a" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-size: 26px; text-align:center;color: #ffffff; line-height: 36px; ">Ngày cưới 29-12-2023</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_ssos9" class="cata-empty-space cata-element" style="height: 60px"></div>
+                                                    <div id="cata_countdown_evyc9083xl" class="cata-countdown cata-element cata-style1 text-light">
+                                                        <div class="cata-countdown-content" data-date="2022/11/30/0/0"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch has-animation ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px" id="bridegroom" style="padding-top:70px; margin-bottom:50px;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="100">
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-30">
+                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-12" id="column_l9mfuxggh6" style="padding-right:20%;padding-left:20%;">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_single_image_m419hwzuwb" class="cata-single-image cata-element img-center">
+                                                        <div>
+                                                            <figure> <img width="120" height="72" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-flower.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-flower" /> </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_w2oi3" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div id="cata_custom_heading_y2egsyn7co" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 70px; text-align:center;color: #282828; line-height: 80px; ">Groom &amp; Bride</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_atrnj" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div class="cata-text-column cata-element color-dark">
                                                         <div class="text_wrapper">
-                                                            <p style="text-align: center">
-                                                                HYATT REGENCY GREENVILLE<br />220 NORTH MAIN
-                                                                STREET
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div id="cata_empty_space_hdpo7" class="cata-empty-space cata-element" style="height: 5px"></div>
-                                                    <div class="cata-inner-row row_jbwvpm4oww cata-inner-row-container ipad-padding-right-5percent ipad-padding-left-5percent mobile-padding-right-30px mobile-padding-left-30px" id="row_jbwvpm4oww" style="
-                                padding-right: 12%;
-                                padding-left: 12%;
-                                margin-bottom: 0;
-                              ">
-                                                        <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_0km4smhs3v">
-                                                            <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                                <div id="cata_countdown_cqx7rtctca" class="cata-countdown cata-element cata-style2 has-animation cata-main-color" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="250">
-                                                                    <div class="cata-countdown-content" data-date="2023/12/28/0/0"></div>
-                                                                </div>
-                                                            </div>
+                                                            <p style="text-align: center;">Donec eu scelerisque est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean tristique eleifend placerat. Quisque pellentesque est non velit egestas.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -229,211 +89,174 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="cata-section cata-section-container-stretch row-content-middle cata-row-flex" id="section_1dy6632kx5" style="
-                      padding-top: 160px;
-                      padding-bottom: 100px;
-                      margin-bottom: 0;
-                    ">
+                                <section class="cata-section cata-section-container-stretch row-content-middle cata-row-flex mobile-margin-bottom-30px" id="section_kqlf6su9qz" style="margin-bottom:0;">
                                     <div class="cata-container">
-                                        <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-5" data-animation-type="fadeInLeft" data-animation-duration="700" data-animation-delay="100" id="column_aywa3t84hj">
+                                        <div class="cata-row cata-columns-gap-0">
+                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-6" data-animation-type="fadeInDown" data-animation-duration="700" data-animation-delay="300" id="column_zifttuu01e">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <div id="cata_single_image_w22938ug9u" class="cata-single-image cata-element img-center effect-sparkle">
+                                                    <div id="cata_single_image_wzvzqw50bq" class="cata-single-image cata-element img-center effect-zoomin">
                                                         <div>
-                                                            <figure>
-                                                                <img width="354" height="369" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-groom.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="green-home1-groom" /><span class="cata-effect cata-effect-sparkle"></span>
-                                                            </figure>
+                                                            <figure> <img width="585" height="500" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-groom.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-groom" /> </figure>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-2" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="150" id="column_upft174bxo">
+                                            <div class="cata-column wpb_column vc_column_container text-center has-animation ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-6" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="350" id="column_drkua6smdq" style="padding-right:70px;padding-left:70px;background-color:#fafafa;">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <div id="cata_single_image_qchdn2hq3n" class="cata-single-image cata-element img-center">
-                                                        <div>
-                                                            <figure>
-                                                                <img width="177" height="193" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/mike-diana.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="mike-diana" />
-                                                            </figure>
-                                                        </div>
+                                                    <div id="cata_custom_heading_eqw8n6st9o" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 40px; text-align:center;color: #282828; line-height: 50px; ">Nguyệt Henry</h2>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-5" data-animation-type="fadeInRight" data-animation-duration="700" data-animation-delay="100" id="column_o9x062jx1u">
-                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <div id="cata_single_image_q6micw2o79" class="cata-single-image cata-element img-center effect-sparkle">
-                                                        <div>
-                                                            <figure>
-                                                                <img width="354" height="369" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-bride.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="green-home1-bride" /><span class="cata-effect cata-effect-sparkle"></span>
-                                                            </figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section class="cata-section cata-section-container-stretch has-animation cata-parallax-bg" id="section_tfpump4qo3" data-prlx-speed="0.1" style="
-                      padding-top: 160px;
-                      padding-bottom: 160px;
-                      margin-bottom: 0;
-                      background-image: url(https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/background_12.jpg);
-                      background-repeat: no-repeat;
-                      background-size: cover;
-                      background-position: center center;
-                    " data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
-                                    <div class="cata-container">
-                                        <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-10percent ipad-padding-left-10percent mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-6 cata-bg-column-color" id="column_lripg9gbxn" style="
-                            padding-top: 70px;
-                            padding-right: 50px;
-                            padding-bottom: 70px;
-                            padding-left: 50px;
-                            background-color: #f7f7f7;
-                          ">
-                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <h3 id="title_mh3ki" class="heading-title style2 text-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <span>We are Together</span>
-                                                    </h3>
-                                                    <div id="cata_empty_space_kxemu" class="cata-empty-space cata-element" style="height: 25px"></div>
-                                                    <div id="cata_column_text_ya579" class="cata-text-column cata-element cata-body-color has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="100">
+                                                    <div id="cata_empty_space_m9qmn" class="cata-empty-space cata-element" style="height: 20px"></div>
+                                                    <div class="cata-text-column cata-element color-dark">
                                                         <div class="text_wrapper">
-                                                            <p style="text-align: center">
-                                                                Morbi sed magna in neque vestibulum venenatis
-                                                                at eu metus. Mauris bibendum nibh eget justo
-                                                                rhoncus, eget vehicula quam condimentum. Etiam
-                                                                aliquam vehicula lectus, tempor varius libero.
-                                                            </p>
+                                                            <p style="text-align: center;">Duis tristique elit at ullamcorper tempus. Mauris faucibus dapibus libero. Etiam at nunc in urna tempor fermentum sed sit amet velit. Quisque in felis ut erat dictum luctus id a lacus accumsan.</p>
                                                         </div>
                                                     </div>
-                                                    <div id="cata_button_6klwdzmkl7" class="cata-button cata-btn-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="150">
-                                                        <a class="cata-btn cata-btn-style-flat cata-btn-shape-rounded cata-btn-size-nm" href="http://bit.ly/2w3XjSE" target="_blank" title="JOIN WITH US">JOIN WITH US</a>
+                                                    <div id="cata_empty_space_pzu67" class="cata-empty-space cata-element" style="height: 10px"></div>
+                                                    <div id="cata_socials_pyy6r7dd50" class="cata-socials cata-style1 cata-align-center cata-size-sm icons-3">
+                                                        <ul>
+                                                            <li class="icon-facebook"><a href="http://bit.ly/2w3XjSE" target="_blank" title="Facebook" data-hover="Facebook"><i class="cicon fa-facebook"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                                            <li class="icon-twitter"><a href="http://bit.ly/2w3XjSE" target="_blank" title="Twitter" data-hover="Twitter"><i class="cicon fa-twitter"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                                            <li class="icon-google-plus"><a href="http://bit.ly/2w3XjSE" target="_blank" title="Google Plus" data-hover="Google Plus"><i class="cicon fa-google-plus"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                                        </ul>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-6" id="column_170xse484j">
-                                                <div class="cata-column-wrapper vc-column-innner-wrapper"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </section>
-                                <section class="cata-section cata-section-container-stretch" id="ourstory" style="
-                      padding-top: 100px;
-                      padding-bottom: 100px;
-                      margin-bottom: 0;
-                    ">
+                                <section class="cata-section cata-section-container-stretch row-content-middle cata-row-flex" id="section_3jfqur5dkh" style="margin-bottom:0;">
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-0">
+                                            <div class="cata-column wpb_column vc_column_container text-center has-animation ipad-padding-right-30px ipad-padding-left-30px mobile-padding-top-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-6" data-animation-type="fadeInDown" data-animation-duration="700" data-animation-delay="150" id="column_xw3bewo0nk" style="padding-right:70px;padding-left:70px;background-color:#fafafa;">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_custom_heading_x2rsk1zr24" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 40px; text-align:center;color: #282828; line-height: 50px; ">Toàn Colin</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_bv1jg" class="cata-empty-space cata-element" style="height: 20px"></div>
+                                                    <div class="cata-text-column cata-element color-dark">
+                                                        <div class="text_wrapper">
+                                                            <p style="text-align: center;">Duis tristique elit at ullamcorper tempus. Mauris faucibus dapibus libero. Etiam at nunc in urna tempor fermentum sed sit amet velit. Quisque in felis ut erat dictum luctus id a lacus accumsan.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_e0brp" class="cata-empty-space cata-element" style="height: 10px"></div>
+                                                    <div id="cata_socials_b7px4ayga4" class="cata-socials cata-style1 cata-align-center cata-size-sm icons-3">
+                                                        <ul>
+                                                            <li class="icon-facebook"><a href="http://bit.ly/2w3XjSE" target="_blank" title="Facebook" data-hover="Facebook"><i class="cicon fa-facebook"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                                            <li class="icon-twitter"><a href="http://bit.ly/2w3XjSE" target="_blank" title="Twitter" data-hover="Twitter"><i class="cicon fa-twitter"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                                            <li class="icon-google-plus"><a href="http://bit.ly/2w3XjSE" target="_blank" title="Google Plus" data-hover="Google Plus"><i class="cicon fa-google-plus"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cata-column wpb_column vc_column_container text-left has-animation mobile-padding-top-0px col-xs-mobile-fullwidth col-sm-6" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200" id="column_3e10bh78ar">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_single_image_g2jw8or9xm" class="cata-single-image cata-element img-center effect-zoomin">
+                                                        <div>
+                                                            <figure> <img width="585" height="500" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-bride.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-bride" /> </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch cata-parallax-bg" id="section_plwgd09r12" data-prlx-speed="0.1" style="padding-top:300px; padding-bottom:300px; margin-top:75px; margin-bottom:0;background-image: url(http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-background_1.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;">
+                                    <div class="selection-texture tt-top"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-top.png" alt="Texture top" /></div>
+                                    <div class="selection-texture tt-bottom"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-bottom.png" alt="Texture bottom" /></div>
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_wjgpjudph6">
+                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-12" id="column_m74zv4t67t" style="padding-right:100px;padding-left:100px;">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <h3 id="title_h9v7v" class="heading-title style2 text-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <span>Our Story</span>
-                                                    </h3>
-                                                    <div id="cata_empty_space_gx0jj" class="cata-empty-space cata-element" style="height: 50px"></div>
-                                                    <div id="cata_timeline_70zg0vp5us" class="cata-timeline clearfix cata-style3">
+                                                    <div id="cata_custom_heading_6vfsq5q3qr" class="cata-custom-heading cata-element has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="400">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 64px; text-align:center;color: #ffffff; line-height: 80px; ">Love is the best thing in the world, and the thing that lives the longest</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch has-animation" id="ourstory" style="padding-top:70px; margin-bottom:50px;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-30">
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_tdnkojvy73">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_single_image_ev6pf291ce" class="cata-single-image cata-element img-center">
+                                                        <div>
+                                                            <figure> <img width="120" height="72" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-flower.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-flower" /> </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_jd6wj" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div id="cata_custom_heading_7i8xznckse" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 70px; text-align:center;color: #282828; line-height: 80px; ">Our Love Story</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_x1ynn" class="cata-empty-space cata-element" style="height: 65px"></div>
+                                                    <div id="cata_timeline_iviktz1rc6" class="cata-timeline clearfix cata-style2">
                                                         <div class="cata-timeline-top"></div>
                                                         <div class="cata-content-wrapper">
-                                                            <div class="cata-item has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
-                                                                <div class="cata-timeline-icon">
-                                                                    <span class="flaticon-album"></span>
-                                                                </div>
+                                                            <div class="cata-item has-animation" data-animation-type="fadeInLeft" data-animation-duration="700" data-animation-delay="0">
+                                                                <div class="cata-timeline-icon"> <span class="flaticon-album"></span></div>
                                                                 <div class="cata-timeline-content">
+                                                                    <h4 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 34px; line-height: 40px; ">First time we met</h4><span class="cata-date">July 20, 2016</span>
                                                                     <div class="image-wrap">
-                                                                        <div id="cata_single_image_e5pztkf3tv" class="cata-single-image cata-element img-center effect-zoomin">
+                                                                        <div id="cata_single_image_bm4e4d0y59" class="cata-single-image cata-element img-center effect-zoomin">
                                                                             <div>
-                                                                                <figure>
-                                                                                    <img width="570" height="360" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/green-story_01.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="green-story_01" />
-                                                                                </figure>
+                                                                                <figure> <img width="580" height="314" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-story_1.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-story_1" /> </figure>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="content-wrap">
-                                                                        <h4>First time we meet</h4>
-                                                                        <span class="cata-date">June 20, 2013</span>
-                                                                        <p class="cata-desc">
-                                                                            Proin posuere placerat ipsum, nec
-                                                                            feugiat<br />nisl. Nam eget ullamcorper
-                                                                            nisi non blandit.<br />Curabitur non
-                                                                            bibendum nisi.
-                                                                        </p>
-                                                                    </div>
+                                                                    <p class="cata-desc">Lorem ipsum facilisis. Nostra, sociosqu quis,<br />tempus, sollicitudin tincidunt at eu felis</p>
+                                                                    <div id="cata_button_link_zgiqgyl79a" class="cata-button cata-btn-link cata-btn-center"><a class="cata-link cata-style-border-bottom icon-only" href="http://bit.ly/2w3XjSE" target="_blank" title="READ MORE">READ MORE</a></div>
                                                                 </div>
                                                             </div>
-                                                            <div class="cata-item has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
-                                                                <div class="cata-timeline-icon">
-                                                                    <span class="flaticon-wedding-1"></span>
-                                                                </div>
+                                                            <div class="cata-item has-animation" data-animation-type="fadeInRight" data-animation-duration="700" data-animation-delay="0">
+                                                                <div class="cata-timeline-icon"> <span class="flaticon-wedding-1"></span></div>
                                                                 <div class="cata-timeline-content">
+                                                                    <h4 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 34px; line-height: 40px; ">We fall in love each other</h4><span class="cata-date">January 19, 2017</span>
                                                                     <div class="image-wrap">
-                                                                        <div id="cata_single_image_cxz9qjol9b" class="cata-single-image cata-element img-center effect-zoomin">
-                                                                            <div>
-                                                                                <figure>
-                                                                                    <img width="570" height="360" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/green-story_02.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="green-story_02" />
-                                                                                </figure>
+                                                                        <div id="video_v69q9a58wm" class="cata-video video-align-left video-width-100 video-host-youtube noimg cata-video-popup-style" data-id="video-v69q9a58wm">
+                                                                            <div class="video-hid" id="video-v69q9a58wm" data-setup='{"controls":true,"techOrder":["youtube"],"sources":[{"type":"video\/youtube","src":"https:\/\/www.youtube.com\/watch?v=teLhLLlhfzc"}]}'>
+                                                                                <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+                                                                            </div>
+                                                                            <div class="cata-bg-image" style="background-image:url(http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-story_2.jpg);">
+                                                                                <div class="video-ctent">
+                                                                                    <div><span class="video-control"></span></div>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="content-wrap">
-                                                                        <h4>We fall in love each other</h4>
-                                                                        <span class="cata-date">September 25, 2013</span>
-                                                                        <p class="cata-desc">
-                                                                            Proin posuere placerat ipsum, nec
-                                                                            feugiat<br />nisl. Nam eget ullamcorper
-                                                                            nisi non blandit.<br />Curabitur non
-                                                                            bibendum nisi.
-                                                                        </p>
-                                                                    </div>
+                                                                    <p class="cata-desc">Lorem ipsum facilisis. Nostra, sociosqu quis,<br />tempus, sollicitudin tincidunt at eu felis</p>
+                                                                    <div id="cata_button_link_jreg3v7ffa" class="cata-button cata-btn-link cata-btn-center"><a class="cata-link cata-style-border-bottom icon-only" href="http://bit.ly/2w3XjSE" target="_blank" title="READ MORE">READ MORE</a></div>
                                                                 </div>
                                                             </div>
-                                                            <div class="cata-item has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
-                                                                <div class="cata-timeline-icon">
-                                                                    <span class="flaticon-rings"></span>
-                                                                </div>
+                                                            <div class="cata-item has-animation" data-animation-type="fadeInLeft" data-animation-duration="700" data-animation-delay="0">
+                                                                <div class="cata-timeline-icon"> <span class="flaticon-rings"></span></div>
                                                                 <div class="cata-timeline-content">
+                                                                    <h4 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 34px; line-height: 40px; ">I asked and she said Yes!</h4><span class="cata-date">September 20, 2017</span>
                                                                     <div class="image-wrap">
-                                                                        <div id="cata_single_image_xrrct89f1p" class="cata-single-image cata-element img-center effect-zoomin">
+                                                                        <div id="cata_single_image_ly8xlnolb8" class="cata-single-image cata-element img-center effect-zoomin">
                                                                             <div>
-                                                                                <figure>
-                                                                                    <img width="570" height="360" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/green-story_03.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="green-story_03" />
-                                                                                </figure>
+                                                                                <figure> <img width="580" height="314" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-story_4.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-story_4" /> </figure>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="content-wrap">
-                                                                        <h4>He asked?..She said Yes</h4>
-                                                                        <span class="cata-date">June 20, 2017</span>
-                                                                        <p class="cata-desc">
-                                                                            Proin posuere placerat ipsum, nec
-                                                                            feugiat<br />nisl. Nam eget ullamcorper
-                                                                            nisi non blandit.<br />Curabitur non
-                                                                            bibendum nisi.
-                                                                        </p>
-                                                                    </div>
+                                                                    <p class="cata-desc">Lorem ipsum facilisis. Nostra, sociosqu quis,<br />tempus, sollicitudin tincidunt at eu felis</p>
+                                                                    <div id="cata_button_link_rvvxo5qe9f" class="cata-button cata-btn-link cata-btn-center"><a class="cata-link cata-style-border-bottom icon-only" href="http://bit.ly/2w3XjSE" target="_blank" title="READ MORE">READ MORE</a></div>
                                                                 </div>
                                                             </div>
-                                                            <div class="cata-item has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
-                                                                <div class="cata-timeline-icon">
-                                                                    <span class="flaticon-wedding"></span>
-                                                                </div>
+                                                            <div class="cata-item has-animation" data-animation-type="fadeInRight" data-animation-duration="700" data-animation-delay="0">
+                                                                <div class="cata-timeline-icon"> <span class="flaticon-wedding-cake"></span></div>
                                                                 <div class="cata-timeline-content">
+                                                                    <h4 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 34px; line-height: 40px; ">We decieded to marry!</h4><span class="cata-date">February 14, 2024</span>
                                                                     <div class="image-wrap">
-                                                                        <div id="cata_single_image_7jtysuvtvt" class="cata-single-image cata-element img-center effect-sparkle">
+                                                                        <div id="cata_single_image_dav8s0assn" class="cata-single-image cata-element img-center effect-zoomin">
                                                                             <div>
-                                                                                <figure>
-                                                                                    <img width="570" height="361" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/green-story_04.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="green-story_04" /><span class="cata-effect cata-effect-sparkle"></span>
-                                                                                </figure>
+                                                                                <figure> <img width="580" height="314" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-story_3.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-story_3" /> </figure>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="content-wrap">
-                                                                        <h4>The wedding day!</h4>
-                                                                        <span class="cata-date">November 5, 2018</span>
-                                                                        <p class="cata-desc">
-                                                                            Proin posuere placerat ipsum, nec
-                                                                            feugiat<br />nisl. Nam eget ullamcorper
-                                                                            nisi non blandit.<br />Curabitur non
-                                                                            bibendum nisi.
-                                                                        </p>
-                                                                    </div>
+                                                                    <p class="cata-desc">Lorem ipsum facilisis. Nostra, sociosqu quis,<br />tempus, sollicitudin tincidunt at eu felis</p>
+                                                                    <div id="cata_button_link_tmvehovwcc" class="cata-button cata-btn-link cata-btn-center"><a class="cata-link cata-style-border-bottom icon-only" href="http://bit.ly/2w3XjSE" target="_blank" title="READ MORE">READ MORE</a></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -444,55 +267,234 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="cata-section cata-section-container-stretch has-animation cata-parallax-bg" id="gallery" data-prlx-speed="0.1" style="
-                      padding-top: 100px;
-                      padding-bottom: 100px;
-                      margin-bottom: 0;
-                      background-image: url(https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/background_14.jpg);
-                      background-repeat: no-repeat;
-                      background-size: cover;
-                      background-position: center center;
-                    " data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                <section class="cata-section cata-section-container-stretch" id="section_yzs2chzqot" style="margin-bottom:0;">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-10percent ipad-padding-left-10percent mobile-padding-right-10percent mobile-padding-left-10percent col-xs-mobile-fullwidth col-sm-12" id="column_t9iztcbior">
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-3" id="column_g3ttibuq6p">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper"></div>
+                                            </div>
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-6" id="column_c8xx7lfrd0">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <h3 id="title_nckes" class="heading-title style2 text-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <span>Best Moments</span>
-                                                    </h3>
-                                                    <div id="cata_empty_space_ih27w" class="cata-empty-space cata-element" style="height: 40px"></div>
-                                                    <div class="wpb_images_carousel wpb_content_element vc_clearfix">
-                                                        <div class="wpb_wrapper">
-                                                            <div id="vc_images-carousel-1-1690266545" data-ride="vc_carousel" data-wrap="true" style="width: 100%" data-interval="5000" data-auto-height="yes" data-mode="horizontal" data-partial="false" data-per-view="1" data-hide-on-end="false" class="vc_slide vc_images_carousel">
-                                                                <ol class="vc_carousel-indicators">
-                                                                    <li data-target="#vc_images-carousel-1-1690266545" data-slide-to="0"></li>
-                                                                    <li data-target="#vc_images-carousel-1-1690266545" data-slide-to="1"></li>
-                                                                    <li data-target="#vc_images-carousel-1-1690266545" data-slide-to="2"></li>
-                                                                    <li data-target="#vc_images-carousel-1-1690266545" data-slide-to="3"></li>
-                                                                </ol>
-                                                                <div class="vc_carousel-inner">
-                                                                    <div class="vc_carousel-slideline">
-                                                                        <div class="vc_carousel-slideline-inner">
-                                                                            <div class="vc_item">
-                                                                                <div class="vc_inner">
-                                                                                    <img width="1170" height="705" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-gallery_001.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="green-home1-gallery_001" />
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="vc_item">
-                                                                                <div class="vc_inner">
-                                                                                    <img width="1170" height="705" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-gallery_002.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="green-home1-gallery_002" />
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="vc_item">
-                                                                                <div class="vc_inner">
-                                                                                    <img width="1170" height="705" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-gallery_003.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="green-home1-gallery_003" />
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="vc_item">
-                                                                                <div class="vc_inner">
-                                                                                    <img width="1170" height="705" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-home1-gallery_004.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="green-home1-gallery_004" />
-                                                                                </div>
-                                                                            </div>
+                                                    <div id="cata_slider_vg52e54gj3" class="cata-slick-slider catanis-slider cata-element dots-line cata-slider-spacing30 has-animation cata-show-one" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                        <div class="cata-overlay-bg"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-gallery-bg.png" alt="" /></div>
+                                                        <ul class="slides" data-slick='{"autoplay":true,"autoplaySpeed":3000,"slidesToShow":1,"slidesToScroll":1,"dots":false,"arrows":true,"infinite":true,"draggable":true,"rtl":false,"speed":500,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"fade":true,"cssEase":"linear"}'>
+                                                            <li class="cata-item"><img width="720" height="720" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-gallery_4.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_4" /></li>
+                                                            <li class="cata-item"><img width="720" height="720" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-gallery_2.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_2" /></li>
+                                                            <li class="cata-item"><img width="720" height="720" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-gallery_5.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_5" /></li>
+                                                            <li class="cata-item"><img width="720" height="720" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-gallery_3.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_3" /></li>
+                                                            <li class="cata-item"><img width="720" height="720" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-gallery_1.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_1" /></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-3" id="column_hxyx1zqtlu">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch has-animation" id="section_wleto7djs6" style="margin-top:45px; margin-bottom:20px;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-30">
+                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-12" id="column_f0pux0df6e" style="padding-right:20%;padding-left:20%;">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_custom_heading_xggw3mb3v9" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 70px; text-align:center;color: #282828; line-height: 80px; ">Join with us</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_k2ni4" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div class="cata-text-column cata-element color-dark">
+                                                        <div class="text_wrapper">
+                                                            <p style="text-align: center;">Donec eu scelerisque est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean tristique eleifend placerat. Quisque pellentesque est non velit egestas.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_ei4jh" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div id="cata_button_9u3zxjrl0a" class="cata-button cata-btn-center"><a class="cata-btn cata-btn-style-flat cata-btn-shape-square cata-btn-size-nm" href="http://onelove.catanisthemes.com/rsvp/" target="_blank" title="RSVP NOW">RSVP NOW</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch" id="whenwhere" style="padding-top:60px; margin-bottom:0;">
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-30">
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_jnrirsw87z">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch cata-parallax-bg" id="section_crmeirqdzc" data-prlx-speed="0.1" style="padding-top:320px; padding-bottom:300px; margin-bottom:0;background-image: url(http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-background_2.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;">
+                                    <div class="selection-texture tt-top"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-top.png" alt="Texture top" /></div>
+                                    <div class="selection-texture tt-bottom"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-bottom.png" alt="Texture bottom" /></div>
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-30">
+                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-4" id="column_3ul36jlg27">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_iconbox_1p99hj22yb" class="cata-iconbox cata-element cata-style4 has-animation cata-color-light" data-animation-type="fadeInLeft" data-animation-duration="700" data-animation-delay="80"> <span class="number">01</span>
+                                                        <div class="iconbox-wrap">
+                                                            <h6> <a href="https://bit.ly/2w3XjSE" title="Wedding Consulting"> Wedding Consulting </a> </h6>
+                                                            <p>Proin posuere placerat ipsum, nec feugiat nisl. Nam eget ullamcorper nisi non blandit. Curabitur non bibendum nisi.</p> <a href="https://bit.ly/2w3XjSE" class="readmore" target="_blank" title="View Map">View Map</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cata-column wpb_column vc_column_container text-left col-xs-mobile-fullwidth col-sm-4" id="column_zgr5z8gsgn">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_iconbox_a1wmbk0dfh" class="cata-iconbox cata-element cata-style4 has-animation cata-color-light" data-animation-type="fadeInDown" data-animation-duration="700" data-animation-delay="0"> <span class="number">02</span>
+                                                        <div class="iconbox-wrap">
+                                                            <h6> <a href="https://bit.ly/2w3XjSE" title="Wedding Services"> Wedding Services </a> </h6>
+                                                            <p>Proin posuere placerat ipsum, nec feugiat nisl. Nam eget ullamcorper nisi non blandit. Curabitur non bibendum nisi.</p> <a href="https://bit.ly/2w3XjSE" class="readmore" target="_blank" title="View Map">View Map</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-4" id="column_1e3uds3w0l">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_iconbox_0rpopntfvk" class="cata-iconbox cata-element cata-style4 has-animation cata-color-light" data-animation-type="fadeInRight" data-animation-duration="700" data-animation-delay="150"> <span class="number">03</span>
+                                                        <div class="iconbox-wrap">
+                                                            <h6> <a href="https://bit.ly/2w3XjSE" title="Wedding Planner"> Wedding Planner </a> </h6>
+                                                            <p>Proin posuere placerat ipsum, nec feugiat nisl. Nam eget ullamcorper nisi non blandit. Curabitur non bibendum nisi.</p> <a href="https://bit.ly/2w3XjSE" class="readmore" target="_blank" title="View Map">View Map</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch" id="bestfriends" style="padding-top:70px; margin-bottom:40px;">
+                                    <div class="cata-container">
+                                        <div class="cata-row cata-columns-gap-30">
+                                            <div class="cata-column wpb_column vc_column_container text-left col-xs-mobile-fullwidth col-sm-12" id="column_2pdlnezx5o">
+                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                    <div id="cata_single_image_x38tql1cfx" class="cata-single-image cata-element img-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="100">
+                                                        <div>
+                                                            <figure> <img width="120" height="72" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-flower.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-flower" /> </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_yzefg" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div id="cata_custom_heading_vq230pjf5t" class="cata-custom-heading cata-element has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 70px; text-align:center;color: #282828; line-height: 80px; ">Bridesmaid</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_8flh8" class="cata-empty-space cata-element" style="height: 40px"></div>
+                                                    <div id="cata_team_k4i3wccfne" class="cata-team cata-element cata-style1 has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                        <div class="cata-cols-wrapper cols-4" data-slick='[]'>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_01.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="dribble" href="#" target="_blank" rel="nofollow"><i class="fa fa-dribbble"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Abby Rose</a> <span class="role">Web Developer</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_02.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="pinterest" href="#" target="_blank" rel="nofollow"><i class="fa fa-pinterest-p"></i></a><a class="dribble" href="#" target="_blank" rel="nofollow"><i class="fa fa-dribbble"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Bridget Reid</a> <span class="role">SEO Manager</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_03.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="linkedin" href="#" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Nina Grace</a> <span class="role">Photographer</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_04.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="google" href="#" target="_blank" rel="nofollow"><i class="fa fa-google-plus"></i></a><a class="linkedin" href="#" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Julia Winter</a> <span class="role">PR Marketing</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_otf1t" class="cata-empty-space cata-element" style="height: 45px"></div>
+                                                    <div id="cata_custom_heading_089udik42k" class="cata-custom-heading cata-element has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 70px; text-align:center;color: #282828; line-height: 80px; ">groomsmen</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_inlhw" class="cata-empty-space cata-element" style="height: 35px"></div>
+                                                    <div id="cata_team_q9s3h64l5r" class="cata-team cata-element cata-style1 has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
+                                                        <div class="cata-cols-wrapper cols-4" data-slick='[]'>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_09.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="instagram" href="#" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="linkedin" href="#" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Alexander Doe</a> <span class="role">Game Tester</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_10.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a><a class="vimeo" href="#" target="_blank" rel="nofollow"><i class="fa fa-vimeo-square"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Henry Tudor</a> <span class="role">Photographer</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_11.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="dribble" href="#" target="_blank" rel="nofollow"><i class="fa fa-dribbble"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Nguyệtson Smith</a> <span class="role">Web Developer</span></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cata-item col">
+                                                                <div class="team-member" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
+                                                                    <figure class="animated-overlay"> <img width="400" height="400" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-team_12.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
+                                                                        <figcaption>
+                                                                            <div class="social"><a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="instagram" href="https://www.instagram.com/catanisthemes/" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="youtube" href="https://www.youtube.com/channel/UCirJKtPGCI5YWKQxwarSRQQ" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a></div>
+                                                                        </figcaption>
+                                                                    </figure>
+                                                                    <div class="info">
+                                                                        <div>
+                                                                            <div class="name-role"> <a class="name" href="http://catanisthemes.com" target="_blank">Tim Robinson</a> <span class="role">Staff Manager</span></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -504,195 +506,78 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="cata-section cata-section-container-stretch" id="bestfriends" style="padding-top: 100px; margin-bottom: 0">
+                                <section class="cata-section cata-section-fullwidth cata-fullwidth has-animation" id="section_zi70s8nvgs" style="padding-top:170px; padding-bottom:100px; margin-bottom:-20px;background-color:#fff5f6;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="100">
+                                    <div class="selection-texture tt-top"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-top.png" alt="Texture top" /></div>
+                                    <div class="cata-row cata-columns-gap-30">
+                                        <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_a2zm13589l">
+                                            <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                <div id="cata_testimonial_ehpgmzy3p3" class="cata-testimonial cata-element cata-style7 cata-slick-slider cata-slider-spacing30 dots-rounded cata-col-one">
+                                                    <ul class="slides testimonial-inner" data-slick='{"autoplay":true,"autoplaySpeed":2500,"slidesToShow":1,"slidesToScroll":1,"dots":false,"arrows":false,"infinite":true,"draggable":true,"speed":500,"rtl":false,"adaptiveHeight":true,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"fade":true,"cssEase":"linear"}'>
+                                                        <li class="cata-item">
+                                                            <div class="cata-wrap-content">
+                                                                <div class="cata-detail">
+                                                                    <div class="testimonial-content">The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That’s what I hope to give you forever.</div>
+                                                                </div>
+                                                                <div class="cata-info"> <a class="title" href="https://themeforest.net/item/luvaniz-creative-one-page-wordpress-theme/16280903" title="Catanis Themes" target="true">Catanis Themes</a><em>,</em> <span class="occupation">Web Developer</span></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="cata-item">
+                                                            <div class="cata-wrap-content">
+                                                                <div class="cata-detail">
+                                                                    <div class="testimonial-content">Not every theme is perfect (although this theme is one of the best I've purchased), but their customer support was awesome, they deserve 5 stars.</div>
+                                                                </div>
+                                                                <div class="cata-info"> <a class="title" href="https://themeforest.net/item/luvaniz-creative-one-page-wordpress-theme/16280903" title="pepperjacq" target="true">pepperjacq</a><em>,</em> <span class="occupation">Photographer</span></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="cata-item">
+                                                            <div class="cata-wrap-content">
+                                                                <div class="cata-detail">
+                                                                    <div class="testimonial-content">Happiness cannot be traveled to, owned, earned, worn or consumed. Happiness is the spiritual experience of living every minute with love, grace, and gratitude.</div>
+                                                                </div>
+                                                                <div class="cata-info"> <a class="title" title="Denis Waitley" target="true">Denis Waitley</a><em>,</em> <span class="occupation">Writer</span></div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-fullwidth cata-fullwidth has-animation" id="section_ywvn562iuf" style="margin-bottom:0;background-color:#ffffff;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                    <div class="selection-texture tt-top"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture_top-color.png" alt="Texture top" /></div>
+                                    <div class="selection-texture tt-bottom"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-texture-bottom.png" alt="Texture bottom" /></div>
+                                    <div class="cata-row cata-columns-gap-30">
+                                        <div class="cata-column wpb_column vc_column_container text-left col-xs-mobile-fullwidth col-sm-12" id="column_6a4qf3c2ie">
+                                            <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                <div id="cata_slider_ptz8irlkcm" class="cata-slick-slider catanis-slider cata-element dots-line cata-show-one">
+                                                    <ul class="slides" data-slick='{"autoplay":true,"autoplaySpeed":2500,"slidesToShow":1,"slidesToScroll":1,"dots":false,"arrows":false,"infinite":true,"draggable":true,"rtl":false,"speed":500,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"fade":true,"cssEase":"linear"}'>
+                                                        <li class="cata-item"><img width="1920" height="800" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-slider_2.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-slider_2" /></li>
+                                                        <li class="cata-item"><img width="1920" height="800" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-slider_1.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-slider_1" /></li>
+                                                        <li class="cata-item"><img width="1920" height="800" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-slider_3.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-slider_3" /></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch has-animation" id="journey" style="padding-top:70px;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-12" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50" id="column_zk2yqs9fyd">
+                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-30px ipad-padding-left-30px mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-12" id="column_tnozvjjlx7" style="padding-right:20%;padding-left:20%;">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <h3 id="title_kgkhp" class="heading-title style2 text-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <span>Our Best Friends</span>
-                                                    </h3>
-                                                    <div id="cata_empty_space_r28pr" class="cata-empty-space cata-element" style="height: 15px"></div>
-                                                    <div class="vc_tta-container" data-vc-action="collapse">
-                                                        <div class="vc_general vc_tta vc_tta-tabs vc_tta-o-shape-group vc_tta-tabs-position-top vc_tta-controls-align-center cols-2 cata-style1 cata-tabs cata-tta">
-                                                            <div class="vc_tta-tabs-container">
-                                                                <ul class="vc_tta-tabs-list">
-                                                                    <li class="vc_tta-tab vc_active" data-vc-tab>
-                                                                        <a href="#1516937741826-cb0660d0-09cb949a-1188" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">GROOMSMEN</span></a>
-                                                                    </li>
-                                                                    <li class="vc_tta-tab" data-vc-tab>
-                                                                        <a href="#1516937741885-5d33f348-8257949a-1188" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">BRIDEMAIDS</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="vc_tta-panels-container">
-                                                                <div class="vc_tta-panels">
-                                                                    <div class="vc_tta-panel vc_active" id="1516937741826-cb0660d0-09cb949a-1188" data-vc-content=".vc_tta-panel-body">
-                                                                        <div class="vc_tta-panel-heading">
-                                                                            <h4 class="vc_tta-panel-title">
-                                                                                <a href="#1516937741826-cb0660d0-09cb949a-1188" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">GROOMSMEN</span></a>
-                                                                            </h4>
-                                                                        </div>
-                                                                        <div class="vc_tta-panel-body">
-                                                                            <div id="cata_empty_space_dh5rd" class="cata-empty-space cata-element" style="height: 10px"></div>
-                                                                            <div id="cata_team_g3hy9rt87y" class="cata-team cata-element cata-style4">
-                                                                                <div class="cata-cols-wrapper cols-4" data-slick="[]">
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_05.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2ftQLZP" target="_blank">Tim Robinson</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="dribble" href="#" target="_blank" rel="nofollow"><i class="fa fa-dribbble"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a><a class="vimeo" href="#" target="_blank" rel="nofollow"><i class="fa fa-vimeo-square"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_06.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2ftQLZP" target="_blank">Alexander Doe</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="google" href="#" target="_blank" rel="nofollow"><i class="fa fa-google-plus"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a><a class="youtube" href="https://www.youtube.com/channel/UCirJKtPGCI5YWKQxwarSRQQ" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_07.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2ftQLZP" target="_blank">Henry Tudor</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="pinterest" href="#" target="_blank" rel="nofollow"><i class="fa fa-pinterest-p"></i></a><a class="instagram" href="https://www.instagram.com/catanisthemes/" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="linkedin" href="#" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="500" height="500" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_08.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://catanisthemes.com" target="_blank">Johnson Smith</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="instagram" href="https://www.instagram.com/catanisthemes/" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="vc_tta-panel" id="1516937741885-5d33f348-8257949a-1188" data-vc-content=".vc_tta-panel-body">
-                                                                        <div class="vc_tta-panel-heading">
-                                                                            <h4 class="vc_tta-panel-title">
-                                                                                <a href="#1516937741885-5d33f348-8257949a-1188" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">BRIDEMAIDS</span></a>
-                                                                            </h4>
-                                                                        </div>
-                                                                        <div class="vc_tta-panel-body">
-                                                                            <div id="cata_empty_space_bitnw" class="cata-empty-space cata-element" style="height: 10px"></div>
-                                                                            <div id="cata_team_hoyst5vpke" class="cata-team cata-element cata-style4">
-                                                                                <div class="cata-cols-wrapper cols-4" data-slick="[]">
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_04.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2ftQLZP" target="_blank">Neil Richard</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="instagram" href="https://www.instagram.com/catanisthemes/" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="linkedin" href="#" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a><a class="youtube" href="https://www.youtube.com/channel/UCirJKtPGCI5YWKQxwarSRQQ" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_01.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2w3XjSE" target="_blank">Noah Morgan</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="instagram" href="https://www.instagram.com/catanisthemes/" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a><a class="youtube" href="https://www.youtube.com/channel/UCirJKtPGCI5YWKQxwarSRQQ" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_02.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2w3XjSE" target="_blank">Milo Matthew</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="pinterest" href="#" target="_blank" rel="nofollow"><i class="fa fa-pinterest-p"></i></a><a class="instagram" href="https://www.instagram.com/catanisthemes/" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a><a class="youtube" href="https://www.youtube.com/channel/UCirJKtPGCI5YWKQxwarSRQQ" target="_blank" rel="nofollow"><i class="fa fa-youtube-play"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <div class="cata-item col">
-                                                                                        <div class="team-member">
-                                                                                            <figure class="cata-member-img">
-                                                                                                <img width="350" height="350" src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/05/friends_03.jpg" class="attachment-cata_team_thumb size-cata_team_thumb wp-post-image" alt="" decoding="async" loading="lazy" />
-                                                                                            </figure>
-                                                                                            <div class="cata-member-detail">
-                                                                                                <div>
-                                                                                                    <div class="name-role">
-                                                                                                        <a class="name" href="http://bit.ly/2ftQLZP" target="_blank">Rene Donovan</a>
-                                                                                                    </div>
-                                                                                                    <div class="social">
-                                                                                                        <a class="facebook" href="https://www.facebook.com/catanis.themes" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a><a class="twitter" href="https://twitter.com/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a><a class="linkedin" href="#" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i></a><a class="behance" href="https://www.behance.net/catanisthemes" target="_blank" rel="nofollow"><i class="fa fa-behance"></i></a>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                    <div id="cata_single_image_pnpngbqyw7" class="cata-single-image cata-element img-center">
+                                                        <div>
+                                                            <figure> <img width="120" height="72" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-flower.png" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-flower" /> </figure>
+                                                        </div>
+                                                    </div>
+                                                    <div id="cata_empty_space_irxux" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div id="cata_custom_heading_9cluok8jl0" class="cata-custom-heading cata-element">
+                                                        <h2 style="font-family:Allura; font-weight:400; font-style:normal; font-size: 70px; text-align:center;color: #282828; line-height: 80px; ">Our Journey</h2>
+                                                    </div>
+                                                    <div id="cata_empty_space_jspwa" class="cata-empty-space cata-element" style="height: 30px"></div>
+                                                    <div class="cata-text-column cata-element color-dark">
+                                                        <div class="text_wrapper">
+                                                            <p style="text-align: center;">Donec eu scelerisque est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean tristique eleifend placerat. Quisque pellentesque est non velit egestas.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -700,406 +585,255 @@
                                         </div>
                                     </div>
                                 </section>
-                                <div class="cata-container">
-                                    <section class="cata-section cata-section-container has-animation cata-parallax-bg" id="section_i6hxwfkceq" data-prlx-speed="0.1" style="
-                        padding-top: 120px;
-                        padding-bottom: 120px;
-                        margin-bottom: 0;
-                        background-image: url(https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/background_15.jpg);
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        background-position: center center;
-                      " data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
-                                        <div class="selection-overlay" style="opacity: 0.6; background-color: #70a076"></div>
-                                        <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_hmuiojr3r8">
-                                                <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <div id="cata_testimonial_avdf9gtrty" class="cata-testimonial cata-element cata-style7 cata-slick-slider dots-line cata-slider-spacing30 cata-color-text-light cata-col-one has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <div class="slides testimonial-inner" data-slick='{"autoplay":true,"autoplaySpeed":3000,"slidesToShow":1,"slidesToScroll":1,"dots":false,"arrows":false,"infinite":true,"draggable":true,"speed":500,"rtl":false,"adaptiveHeight":true,"responsive":[{"breakpoint":992,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"fade":true,"cssEase":"linear"}'>
-                                                            <div class="cata-item">
-                                                                <div class="cata-wrap-content">
-                                                                    <div class="cata-detail">
-                                                                        <div class="testimonial-content">
-                                                                            A beautiful template, amazing support
-                                                                            and a fabulous result....what more can
-                                                                            you ask for!! This is one of those times
-                                                                            when the results exceed your
-                                                                            expectations. Thank you Catanis for your
-                                                                            creativity, technical skill and patience
-                                                                            in creating my website. Would recommend
-                                                                            this a thousand times over to everyone!!
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="cata-info">
-                                                                        <a class="title" href="http://bit.ly/2w3XjSE" title="Anjan" target="true">Anjan</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cata-item">
-                                                                <div class="cata-wrap-content">
-                                                                    <div class="cata-detail">
-                                                                        <div class="testimonial-content">
-                                                                            The support is amazing. Hands down the
-                                                                            best I have ever experienced. Several
-                                                                            times I wanted to throw in the towel but
-                                                                            they were able to walk me through
-                                                                            everything in a incredibly timely
-                                                                            fashion.
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="cata-info">
-                                                                        <a class="title" href="http://bit.ly/2w3XjSE" title="Wishdiver" target="true">Wishdiver</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cata-item">
-                                                                <div class="cata-wrap-content">
-                                                                    <div class="cata-detail">
-                                                                        <div class="testimonial-content">
-                                                                            This template has so many options so it
-                                                                            is extremely customisable - it has been
-                                                                            such a breeze using this template and
-                                                                            the team @ Catanis are SO helpful and
-                                                                            are always very quick in their
-                                                                            responses. I can't recommend this
-                                                                            template and Catanis enough!
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="cata-info">
-                                                                        <a class="title" href="http://bit.ly/2w3XjSE" title="Jacqueline86" target="true">Jacqueline86</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cata-item">
-                                                                <div class="cata-wrap-content">
-                                                                    <div class="cata-detail">
-                                                                        <div class="testimonial-content">
-                                                                            Superb! The team is absolutely awesome!
-                                                                            Especially the customer support replied
-                                                                            all questions less than one hour, worth
-                                                                            every penny. I will make sure will buy
-                                                                            again in the future. Thank you.
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="cata-info">
-                                                                        <a class="title" href="http://bit.ly/2w3XjSE" title="Gregoriusmich" target="true">Gregoriusmich</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cata-item">
-                                                                <div class="cata-wrap-content">
-                                                                    <div class="cata-detail">
-                                                                        <div class="testimonial-content">
-                                                                            So it's not gonna be easy. It's going to
-                                                                            be really hard; we're gonna have to work
-                                                                            at this everyday, but I want to do that
-                                                                            because I want you. I want all of you,
-                                                                            forever, everyday. You and me...
-                                                                            everyday.
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="cata-info">
-                                                                        <a class="title" href="http://bit.ly/2w3XjSE" title="Noah Allie" target="true">Noah Allie</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="cata-item">
-                                                                <div class="cata-wrap-content">
-                                                                    <div class="cata-detail">
-                                                                        <div class="testimonial-content">
-                                                                            I finally understood what true love
-                                                                            meant...love meant that you care for
-                                                                            another person's happiness more than
-                                                                            your own, no matter how painful the
-                                                                            choices you face might be.
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="cata-info">
-                                                                        <a class="title" href="http://bit.ly/2w3XjSE" title="Nicholas Sparks" target="true">Nicholas Sparks</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
-                                <section class="cata-section cata-section-container-stretch" id="events" style="padding-top: 100px; margin-bottom: 0">
+                                <section class="cata-section cata-section-container-stretch has-animation" id="section_xv7m2m195p" style="margin-bottom:-20px;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_gy8r0ml225">
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_wrwchde8gs">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <h3 id="title_mw7p3" class="heading-title style2 text-center has-animation" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        <span>From Our Blog</span>
-                                                    </h3>
-                                                    <div id="cata_empty_space_d3lu4" class="cata-empty-space cata-element" style="height: 40px"></div>
-                                                    <div id="cata_post_771497009" class="cata-element cata-post cata-isotope cata-isotope-masonry cata-cols3 cata-with-spacing" data-spacing-size="30" data-layout="masonry">
-                                                        <div class="cata-isotope-container" data-slick="[]">
-                                                            <div class="cata-isotope-grid-sizer"></div>
-                                                            <article id="post-1320" class="post stories cata-blog-item cata-isotope-item cata-default-masonry-item cata-blog-first post-1320 type-post status-publish format-video has-post-thumbnail hentry category-stories tag-catanis tag-love tag-marriage tag-wedding-theme post_format-post-format-video">
+                                                    <div id="cata_post_331720343" class="cata-element cata-post cata-slick-slider cata-post-slider cata-cols3 dots-line">
+                                                        <div class="slides" data-slick='{"autoplay":false,"autoplaySpeed":3000,"slidesToShow":3,"slidesToScroll":3,"dots":true,"arrows":false,"infinite":false,"draggable":true,"speed":500,"rtl":false,"adaptiveHeight":true,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":992,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":600,"settings":{"slidesToShow":1,"slidesToScroll":1}}]}'>
+                                                            <article id="post-995" class="post stories wedding cata-blog-item cata-isotope-item cata-blog-first post-995 type-post status-publish format-standard has-post-thumbnail hentry category-stories category-wedding">
                                                                 <div class="item cata-has-animation cata-fadeInUp">
-                                                                    <header class="entry-header">
+                                                                    <div class="entry-content">
+                                                                        <div class="post-default cata-post-format"> <a href="http://onelove.catanisthemes.com/we-provide-best-solutions/" title="We Provide Best Solutions">
+                                                                                <figure class="entry-thumbnail"> <img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/img-blog_04-1170x658.jpg" class="attachment-post-thumbnail wp-post-image" alt="We Provide Best Solutions"> </figure>
+                                                                            </a></div>
+                                                                        <h3 class="cata-blog-item-title"> <a href="http://onelove.catanisthemes.com/we-provide-best-solutions/" rel="bookmark">We Provide Best Solutions</a> </h3>
+                                                                        <div class="meta-info">
+                                                                            <ul class="list-inline entry-meta">
+                                                                                <li class="meta-date"> January 3, 2017 </li>
+                                                                                <li class="meta-seperate"></li>
+                                                                                <li class="meta-categories"><span>In</span><a href="http://onelove.catanisthemes.com/category/stories/" rel="category tag">Stories</a>, <a href="http://onelove.catanisthemes.com/category/wedding/" rel="category tag">Wedding</a></li>
+                                                                                <li class="meta-seperate"></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                            <article id="post-967" class="post stories wedding cata-blog-item cata-isotope-item post-967 type-post status-publish format-video has-post-thumbnail hentry category-stories category-wedding tag-catanis-themes tag-multipurpose tag-onelove tag-wedding post_format-post-format-video">
+                                                                <div class="item cata-has-animation cata-fadeInUp">
+                                                                    <div class="entry-content">
                                                                         <div class="post-video cata-post-format">
-                                                                            <div id="video_apf199lfle" class="cata-video video-align-left video-width-100 video-host-youtube cata-main-color cata-video-popup-style" data-id="video-apf199lfle">
-                                                                                <div class="video-hid" id="video-apf199lfle" data-setup='{"poster":"https:\/\/sweetinz.catanisthemes.com\/wp-content\/uploads\/2018\/03\/blog-special_01.jpg","controls":true,"techOrder":["youtube"],"sources":[{"type":"video\/youtube","src":"https:\/\/www.youtube.com\/watch?v=teLhLLlhfzc"}]}'>
-                                                                                    <p class="vjs-no-js">
-                                                                                        To view this video please enable
-                                                                                        JavaScript, and consider upgrading
-                                                                                        to a web browser that supports
-                                                                                        HTML5 video
-                                                                                    </p>
-                                                                                </div>
-                                                                                <div class="cata-bg-image" style="
-                                              background-image: url(https://sweetinz.catanisthemes.com/wp-content/uploads/2018/03/blog-special_01.jpg);
-                                            ">
-                                                                                    <div class="video-ctent">
-                                                                                        <div>
-                                                                                            <span class="video-control"></span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
+                                                                            <div id="video_id4i9zatga" class="cata-video video-align-left video-width-100 video-host-youtube">
+                                                                                <div class="wrap-cata-video"><video dir="rtl" id="svideo-id4i9zatga" data-setup='{"poster":"http:\/\/onelove.catanisthemes.com\/wp-content\/uploads\/2017\/02\/background_02.jpg","controls":true,"techOrder":["youtube"],"sources":[{"type":"video\/youtube","src":"https:\/\/www.youtube.com\/watch?v=-2-PAEms-28"}]}' class="video-js">
+                                                                                        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+                                                                                    </video></div>
                                                                             </div>
                                                                         </div>
-                                                                    </header>
-                                                                    <div class="entry-content">
+                                                                        <h3 class="cata-blog-item-title"> <a href="http://onelove.catanisthemes.com/we-love-what-we-do/" rel="bookmark">We Love What We Do</a> </h3>
                                                                         <div class="meta-info">
                                                                             <ul class="list-inline entry-meta">
-                                                                                <li class="meta-date">
-                                                                                    March 8, 2018
-                                                                                </li>
+                                                                                <li class="meta-date"> January 3, 2017 </li>
                                                                                 <li class="meta-seperate"></li>
-                                                                                <li class="meta-categories">
-                                                                                    <span>In</span><a href="https://sweetinz.catanisthemes.com/category/stories/" rel="category tag">Stories</a>
-                                                                                </li>
+                                                                                <li class="meta-categories"><span>In</span><a href="http://onelove.catanisthemes.com/category/stories/" rel="category tag">Stories</a>, <a href="http://onelove.catanisthemes.com/category/wedding/" rel="category tag">Wedding</a></li>
                                                                                 <li class="meta-seperate"></li>
                                                                             </ul>
                                                                         </div>
-                                                                        <h3 class="cata-blog-item-title">
-                                                                            <a href="https://sweetinz.catanisthemes.com/elegant-real-wedding-with-french-blue-accents/" rel="bookmark">Elegant Real Wedding With French Blue
-                                                                                Accents</a>
-                                                                        </h3>
                                                                     </div>
                                                                 </div>
                                                             </article>
-                                                            <article id="post-1325" class="post stories cata-blog-item cata-isotope-item cata-default-masonry-item post-1325 type-post status-publish format-image has-post-thumbnail hentry category-stories tag-catanis tag-love tag-marriage tag-wedding-theme post_format-post-format-image">
+                                                            <article id="post-999" class="post stories wedding cata-blog-item cata-isotope-item post-999 type-post status-publish format-gallery has-post-thumbnail hentry category-stories category-wedding tag-catanis-themes tag-multipurpose tag-onelove tag-wedding post_format-post-format-gallery">
                                                                 <div class="item cata-has-animation cata-fadeInUp">
-                                                                    <header class="entry-header">
-                                                                        <div class="post-image cata-post-format">
-                                                                            <a href="https://sweetinz.catanisthemes.com/creating-your-wedding-website-with-minted/" title="Creating Your Wedding Website With Minted">
-                                                                                <figure class="entry-thumbnail">
-                                                                                    <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/03/blog-special_02.jpg" class="attachment-post-thumbnail wp-post-image" alt="Creating Your Wedding Website With Minted" />
-                                                                                </figure>
-                                                                            </a>
-                                                                        </div>
-                                                                    </header>
                                                                     <div class="entry-content">
-                                                                        <div class="meta-info">
-                                                                            <ul class="list-inline entry-meta">
-                                                                                <li class="meta-date">
-                                                                                    March 8, 2018
-                                                                                </li>
-                                                                                <li class="meta-seperate"></li>
-                                                                                <li class="meta-categories">
-                                                                                    <span>In</span><a href="https://sweetinz.catanisthemes.com/category/stories/" rel="category tag">Stories</a>
-                                                                                </li>
-                                                                                <li class="meta-seperate"></li>
-                                                                            </ul>
-                                                                        </div>
-                                                                        <h3 class="cata-blog-item-title">
-                                                                            <a href="https://sweetinz.catanisthemes.com/creating-your-wedding-website-with-minted/" rel="bookmark">Creating Your Wedding Website With
-                                                                                Minted</a>
-                                                                        </h3>
-                                                                    </div>
-                                                                </div>
-                                                            </article>
-                                                            <article id="post-348" class="post stories cata-blog-item cata-isotope-item cata-default-masonry-item post-348 type-post status-publish format-gallery has-post-thumbnail hentry category-stories tag-catanis tag-love tag-marriage tag-wedding-theme post_format-post-format-gallery">
-                                                                <div class="item cata-has-animation cata-fadeInUp">
-                                                                    <header class="entry-header">
                                                                         <div class="post-gallery cata-post-format">
-                                                                            <div class="cata-slick-slider dots-rounded slick-calc-height" id="post-1009948357">
-                                                                                <ul class="slides" data-slick='{"autoplay":true,"autoplaySpeed":2000,"slidesToShow":1,"slidesToScroll":1,"dots":true,"arrows":true,"infinite":true,"fade":true,"draggable":false,"rtl":false,"speed":1000}'>
-                                                                                    <li class="cata-slick-item">
-                                                                                        <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/03/blog_03-520x449.jpg" alt="" />
-                                                                                    </li>
-                                                                                    <li class="cata-slick-item">
-                                                                                        <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/03/blog_09-520x449.jpg" alt="" />
-                                                                                    </li>
-                                                                                    <li class="cata-slick-item">
-                                                                                        <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/03/blog_05-520x449.jpg" alt="" />
-                                                                                    </li>
+                                                                            <div class="cata-slick-slider dots-line slick-calc-height" id="post-977705889">
+                                                                                <ul class='slides' data-slick='{"autoplay":true,"autoplaySpeed":2000,"slidesToShow":1,"slidesToScroll":1,"dots":true,"arrows":true,"infinite":true,"fade":true,"draggable":false,"rtl":false,"speed":1000}'>
+                                                                                    <li class="cata-slick-item"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/img-blog_02-1120x629.jpg" alt="" /></li>
+                                                                                    <li class="cata-slick-item"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/img-blog_06-1120x629.jpg" alt="" /></li>
+                                                                                    <li class="cata-slick-item"><img src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/img-blog_01-1120x629.jpg" alt="" /></li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
-                                                                    </header>
-                                                                    <div class="entry-content">
+                                                                        <h3 class="cata-blog-item-title"> <a href="http://onelove.catanisthemes.com/work-hard-and-be-nice/" rel="bookmark">Work Hard and Be Nice</a> </h3>
                                                                         <div class="meta-info">
                                                                             <ul class="list-inline entry-meta">
-                                                                                <li class="meta-date">
-                                                                                    March 8, 2018
-                                                                                </li>
+                                                                                <li class="meta-date"> January 3, 2017 </li>
                                                                                 <li class="meta-seperate"></li>
-                                                                                <li class="meta-categories">
-                                                                                    <span>In</span><a href="https://sweetinz.catanisthemes.com/category/stories/" rel="category tag">Stories</a>
-                                                                                </li>
+                                                                                <li class="meta-categories"><span>In</span><a href="http://onelove.catanisthemes.com/category/stories/" rel="category tag">Stories</a>, <a href="http://onelove.catanisthemes.com/category/wedding/" rel="category tag">Wedding</a></li>
                                                                                 <li class="meta-seperate"></li>
                                                                             </ul>
                                                                         </div>
-                                                                        <h3 class="cata-blog-item-title">
-                                                                            <a href="https://sweetinz.catanisthemes.com/the-wedding-trends-to-keep-and-ditch-in-2018/" rel="bookmark">The Wedding Trends to Keep and Ditch
-                                                                                in 2018</a>
-                                                                        </h3>
                                                                     </div>
                                                                 </div>
                                                             </article>
                                                         </div>
                                                         <div class="clear"></div>
                                                     </div>
-                                                    <div id="cata_button_u2ilsrlj3a" class="cata-button cata-btn-center">
-                                                        <a class="cata-btn cata-btn-style-classic cata-btn-shape-rounded cata-btn-size-nm" href="http://sweetinz.catanisthemes.com/blog-page/" title="VIEW ALL">VIEW ALL</a>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </section>
-                                <section class="cata-section cata-section-container-stretch" id="rsvp" style="
-                      padding-top: 100px;
-                      padding-bottom: 60px;
-                      margin-bottom: -100px;
-                      background-image: url(https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/background_13.jpg);
-                      background-repeat: no-repeat;
-                      background-size: cover;
-                      background-position: center top;
-                    ">
+                                <section class="cata-section cata-section-fullwidth cata-fullwidth has-animation" id="section_ljwuoxd7be" style="margin-bottom:3px;" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
+                                    <div class="cata-row cata-columns-gap-30">
+                                        <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_vlatz65emg">
+                                            <div class="cata-column-wrapper vc-column-innner-wrapper">
+                                                <div id="separator_ixb" class="cata-separator cata-element cata-align-center cata-width-100 cata-style-default cata-sep-solid cata-border-width-1"> <span class="cata-sep-holder cata-sep-holder-l"><span class="cata-sep-line"></span></span> <span class="cata-sep-holder cata-sep-holder-r"><span class="cata-sep-line"></span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="cata-section cata-section-container-stretch has-animation" id="section_es0moa3582" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="0">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
-                                            <div class="cata-column wpb_column vc_column_container text-left ipad-padding-right-5percent ipad-padding-left-5percent mobile-padding-right-30px mobile-padding-left-30px col-xs-mobile-fullwidth col-sm-12" id="column_50vq0lavuu" style="padding-right: 20%; padding-left: 20%">
+                                            <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-12" id="column_m55ng0dvyl">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <div class="cata-inner-row row_5mdndddkqb cata-inner-row-container" id="row_5mdndddkqb" style="margin-bottom: 0">
-                                                        <div class="cata-column wpb_column vc_column_container text-left col-xs-mobile-fullwidth col-sm-12" id="column_hi256dqfca">
-                                                            <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                                <div id="cata_fcontact_hhhiltxgcj" class="cata-contact-form cata-element form-style1 has-animation cata-use-border-image img-bottom" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                                    <div class="fcontact-img">
-                                                                        <img src="https://sweetinz.catanisthemes.com/wp-content/uploads/2018/04/green-flower.png" alt="" />
-                                                                    </div>
-                                                                    <h5 class="form-title has-animation" data-animation-type="fadeInUp" data-animation-delay="50">
-                                                                        Join With Us
-                                                                    </h5>
-                                                                    <div class="cata-desc">
-                                                                        Please reserve before Feb 14th, 2018. Tell
-                                                                        us if you're coming
-                                                                    </div>
-                                                                    <div class="ctact-from-wrapper">
-                                                                        <div role="form" class="wpcf7" id="wpcf7-f413-p949-o1" lang="en-US" dir="ltr">
-                                                                            <div class="screen-reader-response">
-                                                                                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                                                                <ul></ul>
-                                                                            </div>
-                                                                            <form action="/#wpcf7-f413-p949-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
-                                                                                <div style="display: none">
-                                                                                    <input type="hidden" name="_wpcf7" value="413" /><input type="hidden" name="_wpcf7_version" value="5.5.5" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f413-p949-o1" /><input type="hidden" name="_wpcf7_container_post" value="949" /><input type="hidden" name="_wpcf7_posted_data_hash" />
-                                                                                </div>
-                                                                                <div class="cata-rsvp-form">
-                                                                                    <p>
-                                                                                        <span class="wpcf7-form-control-wrap full-name"><input type="text" name="full-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name" /></span>
-                                                                                    </p>
-                                                                                    <p>
-                                                                                        <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address" /></span>
-                                                                                    </p>
-                                                                                    <div class="cata-cols-wrapper cols-2">
-                                                                                        <p class="col">
-                                                                                            <span class="wpcf7-form-control-wrap number_guests"><select name="number_guests" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required cata-guests-number" aria-required="true" aria-invalid="false">
-                                                                                                    <option>
-                                                                                                        Number Of Guests
-                                                                                                    </option>
-                                                                                                    <option value="One">
-                                                                                                        One
-                                                                                                    </option>
-                                                                                                    <option value="Two">
-                                                                                                        Two
-                                                                                                    </option>
-                                                                                                    <option value="Three">
-                                                                                                        Three
-                                                                                                    </option>
-                                                                                                    <option value="Four">
-                                                                                                        Four
-                                                                                                    </option>
-                                                                                                    <option value="Five">
-                                                                                                        Five
-                                                                                                    </option>
-                                                                                                </select></span>
-                                                                                        </p>
-                                                                                        <p class="col">
-                                                                                            <span class="wpcf7-form-control-wrap guests_attending"><select name="guests_attending" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required cata-guests-attending" aria-required="true" aria-invalid="false">
-                                                                                                    <option>
-                                                                                                        What Will You Be Attending
-                                                                                                    </option>
-                                                                                                    <option value="The Rehearsal Dinner">
-                                                                                                        The Rehearsal Dinner
-                                                                                                    </option>
-                                                                                                    <option value="The Ceremony">
-                                                                                                        The Ceremony
-                                                                                                    </option>
-                                                                                                    <option value="The Afterparty">
-                                                                                                        The Afterparty
-                                                                                                    </option>
-                                                                                                    <option value="All Of The Above">
-                                                                                                        All Of The Above
-                                                                                                    </option>
-                                                                                                </select></span>
-                                                                                        </p>
-                                                                                    </div>
-                                                                                    <p>
-                                                                                        <span class="wpcf7-form-control-wrap your-message">
-                                                                                            <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
-                                                                                        </span>
-                                                                                    </p>
-                                                                                    <p class="wrap-submit">
-                                                                                        <input type="submit" value="SUBMIT" class="wpcf7-form-control has-spinner wpcf7-submit" />
-                                                                                    </p>
-                                                                                </div>
-                                                                                <p style="display: none !important">
-                                                                                    <label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="_wpcf7_ak_js" value="150" />
-                                                                                    <script>
-                                                                                        document
-                                                                                            .getElementById("ak_js_1")
-                                                                                            .setAttribute(
-                                                                                                "value",
-                                                                                                new Date().getTime()
-                                                                                            );
-                                                                                    </script>
-                                                                                </p>
-                                                                                <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                                                            </form>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div id="cata_empty_space_s7jly" class="cata-empty-space cata-element" style="height: 120px"></div>
-                                                    <div id="cata_copyright_xjt" class="cata-copyright cata-text-light has-animation text-center" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200">
-                                                        © 2023 <span>Sweetinz Theme</span>. Design By
-                                                        <i class="fa fa-heart"></i><span> Catanis</span>.
-                                                        All Rights Reserved.
-                                                    </div>
-                                                    <div id="cata_empty_space_fjdqm" class="cata-empty-space cata-element" style="height: 10px"></div>
-                                                    <div id="cata_socials_al1jf9yk8y" class="cata-socials cata-style1 cata-align-center cata-size-nm has-animation icons-4" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
-                                                        <ul>
-                                                            <li class="icon-facebook">
-                                                                <a href="https://www.facebook.com/catanis.themes" target="_blank" title="FaceBook" data-hover="FaceBook"><i class="cicon fa-facebook"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a>
+                                                    <div id="cata_brands_8klmg503r2" class="cata-brands cata-element cata-style1 dots-line cata-slick-slider">
+                                                        <ul class="slides cata-columns-4" data-slick='{"autoplay":false,"autoplaySpeed":3000,"slidesToShow":5,"slidesToScroll":1,"dots":false,"arrows":true,"infinite":true,"draggable":true,"rtl":false,"speed":500,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":3,"slidesToScroll":3}},{"breakpoint":768,"settings":{"slidesToShow":2,"slidesToScroll":2}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}]}'>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_17.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_17" /> </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_14.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_14" /> </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_12.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_12" /> </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_13.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_13" /> </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_16.png" class="attachment-full" alt="" decoding="async" lo</script>
+                                                                <link rel='stylesheet' id='vc_google_fonts_alluraregular-css' href='//fonts.googleapis.com/css?family=Allura%3Aregular' type='text/css' media='all' />
+                                                                <link rel='stylesheet' id='catanis-css-google-fonts-css' href='https://fonts.googleapis.com/css?family=Raleway%3A400%2C600%2C700%7CPlayfair+Display%3A400%2C600%2C700%7CPT+Serif%3A400%2C600%2C700&subset=latin%2Clatin-ext' type='text/css' media='all' />
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/e4cdb2ab563d5c24053f08336137689d/fmzqi.js' id='swv-js'></script>
+                                                                <script id='contact-form-7-js-extra'>
+                                                                    var wpcf7 = {
+                                                                        "api": {
+                                                                            "root": "http:\/\/onelove.catanisthemes.com\/wp-json\/",
+                                                                            "namespace": "contact-form-7\/v1"
+                                                                        }
+                                                                    };
+                                                                </script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/34ecb80103552b1d2fee545ebf8144bd/dq7fv.js' id='contact-form-7-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/4f774346b4b94aec059b5e85ca400485/dq7fv.js' id='tp-tools-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/23508e4e617422a942f538963b7bc1b0/dq7fv.js' id='revmin-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/4f89f05f04eb664ffcc61fa42fdb0aa9/dq7fv.js' id='js-cookie-js'></script>
+                                                                <script id='woocommerce-js-extra'>
+                                                                    var woocommerce_params = {
+                                                                        "ajax_url": "\/wp-admin\/admin-ajax.php",
+                                                                        "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+                                                                    };
+                                                                </script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/264ebe5d65b64cb79874be120f0ba251/dq7fv.js' id='woocommerce-js'></script>
+                                                                <script id='wc-cart-fragments-js-extra'>
+                                                                    var wc_cart_fragments_params = {
+                                                                        "ajax_url": "\/wp-admin\/admin-ajax.php",
+                                                                        "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+                                                                        "cart_hash_key": "wc_cart_hash_e51097300e23ef306648bc39b010855f",
+                                                                        "fragment_name": "wc_fragments_e51097300e23ef306648bc39b010855f",
+                                                                        "request_timeout": "5000"
+                                                                    };
+                                                                </script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/1e9b0fa21b9531d9c45cd11a399c2832/dq7fv.js' id='wc-cart-fragments-js'></script>
+                                                                <script id='mediaelement-core-js-before'>
+                                                                    var mejsL10n = {
+                                                                        "language": "en",
+                                                                        "strings": {
+                                                                            "mejs.download-file": "Download File",
+                                                                            "mejs.install-flash": "You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/",
+                                                                            "mejs.fullscreen": "Fullscreen",
+                                                                            "mejs.play": "Play",
+                                                                            "mejs.pause": "Pause",
+                                                                            "mejs.time-slider": "Time Slider",
+                                                                            "mejs.time-help-text": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.",
+                                                                            "mejs.live-broadcast": "Live Broadcast",
+                                                                            "mejs.volume-help-text": "Use Up\/Down Arrow keys to increase or decrease volume.",
+                                                                            "mejs.unmute": "Unmute",
+                                                                            "mejs.mute": "Mute",
+                                                                            "mejs.volume-slider": "Volume Slider",
+                                                                            "mejs.video-player": "Video Player",
+                                                                            "mejs.audio-player": "Audio Player",
+                                                                            "mejs.captions-subtitles": "Captions\/Subtitles",
+                                                                            "mejs.captions-chapters": "Chapters",
+                                                                            "mejs.none": "None",
+                                                                            "mejs.afrikaans": "Afrikaans",
+                                                                            "mejs.albanian": "Albanian",
+                                                                            "mejs.arabic": "Arabic",
+                                                                            "mejs.belarusian": "Belarusian",
+                                                                            "mejs.bulgarian": "Bulgarian",
+                                                                            "mejs.catalan": "Catalan",
+                                                                            "mejs.chinese": "Chinese",
+                                                                            "mejs.chinese-simplified": "Chinese (Simplified)",
+                                                                            "mejs.chinese-traditional": "Chinese (Traditional)",
+                                                                            "mejs.croatian": "Croatian",
+                                                                            "mejs.czech": "Czech",
+                                                                            "mejs.danish": "Danish",
+                                                                            "mejs.dutch": "Dutch",
+                                                                            "mejs.english": "English",
+                                                                            "mejs.estonian": "Estonian",
+                                                                            "mejs.filipino": "Filipino",
+                                                                            "mejs.finnish": "Finnish",
+                                                                            "mejs.french": "French",
+                                                                            "mejs.galician": "Galician",
+                                                                            "mejs.german": "German",
+                                                                            "mejs.greek": "Greek",
+                                                                            "mejs.haitian-creole": "Haitian Creole",
+                                                                            "mejs.hebrew": "Hebrew",
+                                                                            "mejs.hindi": "Hindi",
+                                                                            "mejs.hungarian": "Hungarian",
+                                                                            "mejs.icelandic": "Icelandic",
+                                                                            "mejs.indonesian": "Indonesian",
+                                                                            "mejs.irish": "Irish",
+                                                                            "mejs.italian": "Italian",
+                                                                            "mejs.japanese": "Japanese",
+                                                                            "mejs.korean": "Korean",
+                                                                            "mejs.latvian": "Latvian",
+                                                                            "mejs.lithuanian": "Lithuanian",
+                                                                            "mejs.macedonian": "Macedonian",
+                                                                            "mejs.malay": "Malay",
+                                                                            "mejs.maltese": "Maltese",
+                                                                            "mejs.norwegian": "Norwegian",
+                                                                            "mejs.persian": "Persian",
+                                                                            "mejs.polish": "Polish",
+                                                                            "mejs.portuguese": "Portuguese",
+                                                                            "mejs.romanian": "Romanian",
+                                                                            "mejs.russian": "Russian",
+                                                                            "mejs.serbian": "Serbian",
+                                                                            "mejs.slovak": "Slovak",
+                                                                            "mejs.slovenian": "Slovenian",
+                                                                            "mejs.spanish": "Spanish",
+                                                                            "mejs.swahili": "Swahili",
+                                                                            "mejs.swedish": "Swedish",
+                                                                            "mejs.tagalog": "Tagalog",
+                                                                            "mejs.thai": "Thai",
+                                                                            "mejs.turkish": "Turkish",
+                                                                            "mejs.ukrainian": "Ukrainian",
+                                                                            "mejs.vietnamese": "Vietnamese",
+                                                                            "mejs.welsh": "Welsh",
+                                                                            "mejs.yiddish": "Yiddish"
+                                                                        }
+                                                                    };
+                                                                </script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/6db8beb67cc34361caab45753bf1c5dc/dq7fv.js' id='mediaelement-core-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/f372dbaaaf82cd25e81b6264acafd128/dq7fv.js' id='mediaelement-migrate-js'></script>
+                                                                <script id='mediaelement-js-extra'>
+                                                                    var _wpmejsSettings = {
+                                                                        "pluginPath": "\/wp-includes\/js\/mediaelement\/",
+                                                                        "classPrefix": "mejs-",
+                                                                        "stretching": "responsive",
+                                                                        "audioShortcodeLibrary": "mediaelement",
+                                                                        "videoShortcodeLibrary": "mediaelement"
+                                                                    };
+                                                                </script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/e227388be1aa2e96e9054b99e42d2f39/dq7fv.js' id='wp-mediaelement-js'></script>
+                                                                <script id='catanis-js-plugins-js-extra'>
+                                                                    var CATANIS = {
+                                                                        "home_url": "http:\/\/onelove.catanisthemes.com",
+                                                                        "theme_uri": "http:\/\/onelove.catanisthemes.com\/wp-content\/themes\/onelove",
+                                                                        "js_url": "http:\/\/onelove.catanisthemes.com\/wp-content\/themes\/onelove\/js\/",
+                                                                        "images_url": "http:\/\/onelove.catanisthemes.com\/wp-content\/themes\/onelove\/images\/",
+                                                                        "ajax_url": "\/wp-admin\/admin-ajax.php",
+                                                                        "header_fixed": "1",
+                                                                        "header_mobile_fixed": "1",
+                                                                        "countdown_label": ["Years", "Months", "Weeks", "Days", "Hours", "Mins", "Secs"],
+                                                                        "countdown_label1": ["Year", "Month", "Week", "Day", "Hour", "Min", "Sec"],
+                                                                        "translate_text": {
+                                                                            "guests": "Number Of Guests",
+                                                                            "attending": "What Will You Be Attending"
+                                                                        }
+                                                                    };
+                                                                </script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/05acd2058032a65204ab466cc1132b02/dq7fv.js' id='catanis-js-plugins-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/8e37c3433ee3aea09602b0c8defd47b8/dq7fv.js' id='catanis-js-core-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/c21f97b785c3e78b386048a0d5fadaf2/dq8mi.js' id='catanis-js-videojs-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/e7d5cf71ac2a235db41f1710f6f65775/dq8mh.js' id='catanis-js-videojs-youtube-js'></script>
+                                                                <script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/694ad21ad6c4ed26a1413ebd36312b31/dq8mh.js' id='catanis-js-videojs-vimeo-js'></script>ading="lazy" title="elem-clients_16"/>
                                                             </li>
-                                                            <li class="icon-twitter">
-                                                                <a href="https://twitter.com/catanisthemes" target="_blank" title="Twitter" data-hover="Twitter"><i class="cicon fa-twitter"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a>
-                                                            </li>
-                                                            <li class="icon-google-plus">
-                                                                <a href="http://bit.ly/2w3XjSE" target="_blank" title="Google" data-hover="Google"><i class="cicon fa-google-plus"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a>
-                                                            </li>
-                                                            <li class="icon-instagram">
-                                                                <a href="https://www.instagram.com/catanisthemes/" target="_blank" title="Instagram" data-hover="Instagram"><i class="cicon fa-instagram"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a>
-                                                            </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_10.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_10" /> </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_11.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_11" /> </li>
+                                                            <li class="cata-item"> <img width="189" height="85" src="http://onelove.catanisthemes.com/wp-content/uploads/2017/02/elem-clients_15.png" class="attachment-full" alt="" decoding="async" loading="lazy" title="elem-clients_15" /> </li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -1112,60 +846,38 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="cata-page-music">
-        <div class="cata-music-toggle-btn cata-toogle">
-            <span class="fa fa-music"></span>
-        </div>
-        <div class="cata-music-embed cata-music-soundcloud">
-            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240391418&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
-        </div>
-    </div>
-    <div class="cata-backtotop">
-        <a href="#" class="cata-backtotop-inner"><i class="fa fa-angle-up"></i></a>
-    </div>
-    <div class="cata-frsvp has-animation" data-animation-type="fadeInRight" data-animation-delay="2000">
-        <a href="#rsvp">
-            <span>R </span> <span>S </span> <span>V </span> <span>P </span></a>
-    </div>
-    <div id="cata_inline_style">
-        .cata-page-title, .page-header-wrap {background-color:
-        #e49497;}.cata-page-title .page-header-wrap .pagetitle-contents
-        .title-subtitle *, .cata-page-title .page-header-wrap .pagetitle-contents
-        .cata-breadcrumbs, .cata-page-title .page-header-wrap .pagetitle-contents
-        .cata-breadcrumbs *, .cata-page-title .cata-autofade-text
-        .fading-texts-container { color:#FFFFFF !important; }
-        #cata_button_6klwdzmkl7.cata-button{
-        margin-top:45px;}#cata_button_6klwdzmkl7.cata-button .cata-btn{color:
-        #282828; background-color:#ffffff}#cata_button_6klwdzmkl7.cata-button
-        .cata-btn:hover{color: #ffffff; background-color:#70a076}
-        #cata_button_u2ilsrlj3a.cata-button{
-        margin-top:30px;}#cata_button_u2ilsrlj3a.cata-button .cata-btn{color:
-        #282828; background-color:#ffffff}#cata_button_u2ilsrlj3a.cata-button
-        .cata-btn:hover{color: #ffffff; background-color:#70a076}
-        #cata_fcontact_hhhiltxgcj{padding-bottom: 183px }#cata_fcontact_hhhiltxgcj
-        .fcontact-img {bottom:-82px }@media screen and (max-width:
-        520px){#cata_fcontact_hhhiltxgcj .fcontact-img {bottom:-41px;}}
-</div>
-
-<div class="cata-demos-preview-wrapper">
-    <div class="cata-demos-preview">
-        <div class="cata-close-demos-preview">Close</div>
-        <div class="cata-demos-tab-wrapper">
-            <div class="cata-demos-preview-info">
-                <div><h3 class="heading-title">Sweetinz Demos</h3></div>
-            </div>
-            <div class="cata-demo-tabs">
-                <div class="cata-preview-loader">
-                    <img
-                            src="https://sweetinz.catanisthemes.com/wp-content/themes/sweetinz/images/ajax-cart-loader.gif"
-                            alt="loader"
-                    />
+            <footer class="cata-footer v3">
+                <div class="cata-footer-bg cata-color-dark" style="background-image: url(http://onelove.catanisthemes.com/wp-content/uploads/2017/02/home22-footer.jpg)"></div>
+                <div class="footer-top color-dark cata-with-bg">
+                    <div class="container">
+                        <div class="cata-footer-logo"><img src="http://onelove.catanisthemes.com/wp-content/themes/onelove/images/default/footer_logo.png" alt="Footer logo" /></div>
+                        <div class="cata-footer-contact-info">
+                            <p><span class="iconn ti-location-pin"></span><i>2404 Redwood Ct, Auburn, WA 98092, USA</i></p>
+                            <p><span class="iconn ti-mobile"></span><i>(+1) 207 187 1989</i></p>
+                            <p><span class="iconn ti-bookmark"></span><i>catanisthemes@gmail.com</i></p>
+                        </div>
+                        <div class="footer-socials">
+                            <div id="cata_socials_s6th9mrhfk" class="cata-socials cata-style1 cata-align-left cata-size-sm icons-4">
+                                <ul>
+                                    <li class="icon-facebook"><a href="https://www.facebook.com/catanis.themes" target="_blank" title="Facebook" data-hover="Facebook"><i class="cicon fa-facebook"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                    <li class="icon-twitter"><a href="https://twitter.com/catanisthemes" target="_blank" title="Twitter" data-hover="Twitter"><i class="cicon fa-twitter"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                    <li class="icon-pinterest"><a href="https://www.pinterest.com/catanisthemes/" target="_blank" title="Pinterest" data-hover="Pinterest"><i class="cicon fa-pinterest"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                    <li class="icon-instagram"><a href="https://www.instagram.com/catanisthemes/" target="_blank" title="Instagram" data-hover="Instagram"><i class="cicon fa-instagram"></i><span class="line-top-left"></span><span class="line-top-center"></span><span class="line-top-right"></span><span class="line-bottom-left"></span><span class="line-bottom-center"></span><span class="line-bottom-right"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <hr class="dark">
+                <div class="footer-bottom color-dark cata-with-bg">
+                    <div class="container">
+                        <div class="copyright"> © 2023 <span>One Love Theme</span>. Design By <i class="fa fa-heart"></i><span>Catanis</span>. All Rights Reserved.</div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
-</div>
+    <div class="cata-backtotop"><a href="#" class="cata-backtotop-inner"><i class="fa fa-angle-up"></i></a></div><a class="cata-purchase-theme-btn" href="https://themeforest.net/item/onelove-the-elegant-clean-multipurpose-wedding-wordpress-theme/20235980?ref=catanis" target="_blank"> <img class="envato-logo" src="http://onelove.catanisthemes.com/landingpage/envato-logo.png"> <img class="price" src="http://onelove.catanisthemes.com/landingpage/59.png"> </a>
+    <div id="cata_inline_style">#cata_custom_heading_406ztoxk96 > h2, #cata_custom_heading_406ztoxk96 > h2 a{padding-bottom:0;} #cata_custom_heading_khrrdcam7a > h2, #cata_custom_heading_khrrdcam7a > h2 a{font-weight: normal;} #cata_custom_heading_y2egsyn7co > h2, #cata_custom_heading_y2egsyn7co > h2 a{padding-bottom:0;} #cata_custom_heading_eqw8n6st9o > h2, #cata_custom_heading_eqw8n6st9o > h2 a{padding-bottom:0;} #cata_custom_heading_x2rsk1zr24 > h2, #cata_custom_heading_x2rsk1zr24 > h2 a{padding-bottom:0;} #cata_custom_heading_6vfsq5q3qr > h2, #cata_custom_heading_6vfsq5q3qr > h2 a{text-transform: none; padding-bottom:0;} #cata_custom_heading_7i8xznckse > h2, #cata_custom_heading_7i8xznckse > h2 a{padding-bottom:0;} #cata_button_link_zgiqgyl79a{ margin-top:20px;}#cata_button_link_zgiqgyl79a .cata-link{border-bottom-style: dashed;border-bottom-width: 1px; border-bottom-color:#e49497; color: #1A1A1A}#cata_button_link_zgiqgyl79a .cata-link:hover{color: #1A1A1A;border-color:#dfa1a3;} #video_v69q9a58wm.cata-video-popup-style .video-ctent .video-control{border-color: #e49497;}#video_v69q9a58wm.cata-video-popup-style .video-ctent .video-control:before{ border-left-color:#e49497; }#video_v69q9a58wm.cata-video-popup-style .video-ctent h4{ color:#e49497; } #cata_button_link_jreg3v7ffa{ margin-top:20px;}#cata_button_link_jreg3v7ffa .cata-link{border-bottom-style: dashed;border-bottom-width: 1px; border-bottom-color:#e49497; color: #1A1A1A}#cata_button_link_jreg3v7ffa .cata-link:hover{color: #1A1A1A;border-color:#dfa1a3;} #cata_button_link_rvvxo5qe9f{ margin-top:20px;}#cata_button_link_rvvxo5qe9f .cata-link{border-bottom-style: dashed;border-bottom-width: 1px; border-bottom-color:#e49497; color: #1A1A1A}#cata_button_link_rvvxo5qe9f .cata-link:hover{color: #1A1A1A;border-color:#dfa1a3;} #cata_button_link_tmvehovwcc{ margin-top:20px;}#cata_button_link_tmvehovwcc .cata-link{border-bottom-style: dashed;border-bottom-width: 1px; border-bottom-color:#e49497; color: #1A1A1A}#cata_button_link_tmvehovwcc .cata-link:hover{color: #1A1A1A;border-color:#dfa1a3;} #cata_custom_heading_xggw3mb3v9 > h2, #cata_custom_heading_xggw3mb3v9 > h2 a{padding-bottom:0;} #cata_button_9u3zxjrl0a.cata-button{}#cata_button_9u3zxjrl0a.cata-button .cata-btn{color: #ffffff; background-color:#e49497}#cata_button_9u3zxjrl0a.cata-button .cata-btn:hover{color: #ffffff; background-color:#282828} #cata_custom_heading_vq230pjf5t > h2, #cata_custom_heading_vq230pjf5t > h2 a{padding-bottom:0;} #cata_custom_heading_089udik42k > h2, #cata_custom_heading_089udik42k > h2 a{padding-bottom:0;} #cata_custom_heading_9cluok8jl0 > h2, #cata_custom_heading_9cluok8jl0 > h2 a{padding-bottom:0;} #separator_ixb .cata-sep-holder .cata-sep-line{ border-color: #f0f0f0;}</div>
 </body>
 @endsection

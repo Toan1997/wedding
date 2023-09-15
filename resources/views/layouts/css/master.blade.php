@@ -1,21 +1,14 @@
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <link rel="pingback" href="https://sweetinz.catanisthemes.com/xmlrpc.php" />
-    <link rel="shortcut icon" type="image/x-icon" href="http://sweetinz.catanisthemes.com/wp-content/themes/sweetinz/images/default/favicon.png" />
-    <title>Sweetinz &#8211; Creative One Page Wedding WordPress Theme</title>
-    <meta name="robots" content="max-image-preview:large" />
-    <link rel="alternate" type="application/rss+xml" title="Sweetinz &raquo; Feed" href="https://sweetinz.catanisthemes.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Sweetinz &raquo; Comments Feed" href="https://sweetinz.catanisthemes.com/comments/feed/" />
-    <link rel="stylesheet" id="wp-block-library-css" href="https://sweetinz.catanisthemes.com/wp-includes/css/dist/block-library/style.min.css" media="all" />
-    <link rel="stylesheet" id="classic-theme-styles-css" href="https://sweetinz.catanisthemes.com/wp-includes/css/classic-themes.min.css" media="all" />
-    <link rel="stylesheet" id="classic-theme-styles-css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" media="all" />
-    <style id="global-styles-inline-css" type="text/css">
-        @font-face {
-            font-family: "FontAwesome";
-            src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2");
-        }
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="pingback" href="http://onelove.catanisthemes.com/xmlrpc.php" />
+    <link rel="shortcut icon" type="image/x-icon" href="http://onelove.catanisthemes.com/wp-content/themes/onelove/images/default/favicon.png" />
+    <title>Home OnePage 02 &#8211; One Love &#8211; A Perfect Wedding Multipurpose WordPress Theme</title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel="alternate" type="application/rss+xml" title="One Love - A Perfect Wedding Multipurpose WordPress Theme &raquo; Feed" href="http://onelove.catanisthemes.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="One Love - A Perfect Wedding Multipurpose WordPress Theme &raquo; Comments Feed" href="http://onelove.catanisthemes.com/comments/feed/" />
+    <link rel="stylesheet" type="text/css" href="//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/eibekolc/fx8i0.css" media="all" />
+    <style id='global-styles-inline-css'>
         body {
             --wp--preset--color--black: #000000;
             --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -29,57 +22,26 @@
             --wp--preset--color--pale-cyan-blue: #8ed1fc;
             --wp--preset--color--vivid-cyan-blue: #0693e3;
             --wp--preset--color--vivid-purple: #9b51e0;
-            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,
-                    rgba(6, 147, 227, 1) 0%,
-                    rgb(155, 81, 224) 100%);
-            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,
-                    rgb(122, 220, 180) 0%,
-                    rgb(0, 208, 130) 100%);
-            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,
-                    rgba(252, 185, 0, 1) 0%,
-                    rgba(255, 105, 0, 1) 100%);
-            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,
-                    rgba(255, 105, 0, 1) 0%,
-                    rgb(207, 46, 46) 100%);
-            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,
-                    rgb(238, 238, 238) 0%,
-                    rgb(169, 184, 195) 100%);
-            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,
-                    rgb(74, 234, 220) 0%,
-                    rgb(151, 120, 209) 20%,
-                    rgb(207, 42, 186) 40%,
-                    rgb(238, 44, 130) 60%,
-                    rgb(251, 105, 98) 80%,
-                    rgb(254, 248, 76) 100%);
-            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,
-                    rgb(255, 206, 236) 0%,
-                    rgb(152, 150, 240) 100%);
-            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,
-                    rgb(254, 205, 165) 0%,
-                    rgb(254, 45, 45) 50%,
-                    rgb(107, 0, 62) 100%);
-            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,
-                    rgb(255, 203, 112) 0%,
-                    rgb(199, 81, 192) 50%,
-                    rgb(65, 88, 208) 100%);
-            --wp--preset--gradient--pale-ocean: linear-gradient(135deg,
-                    rgb(255, 245, 203) 0%,
-                    rgb(182, 227, 212) 50%,
-                    rgb(51, 167, 181) 100%);
-            --wp--preset--gradient--electric-grass: linear-gradient(135deg,
-                    rgb(202, 248, 128) 0%,
-                    rgb(113, 206, 126) 100%);
-            --wp--preset--gradient--midnight: linear-gradient(135deg,
-                    rgb(2, 3, 129) 0%,
-                    rgb(40, 116, 252) 100%);
-            --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
-            --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
-            --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
-            --wp--preset--duotone--blue-red: url("#wp-duotone-blue-red");
-            --wp--preset--duotone--midnight: url("#wp-duotone-midnight");
-            --wp--preset--duotone--magenta-yellow: url("#wp-duotone-magenta-yellow");
-            --wp--preset--duotone--purple-green: url("#wp-duotone-purple-green");
-            --wp--preset--duotone--blue-orange: url("#wp-duotone-blue-orange");
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
             --wp--preset--font-size--small: 13px;
             --wp--preset--font-size--medium: 20px;
             --wp--preset--font-size--large: 36px;
@@ -94,8 +56,7 @@
             --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
             --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
             --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
-                6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         }
 
@@ -385,118 +346,278 @@
             line-height: 1.6;
         }
     </style>
-    <link rel="stylesheet" id="rs-plugin-settings-css" href="https://sweetinz.catanisthemes.com/wp-content/plugins/revslider/public/assets/css/settings.css" media="all" />
-    <style id="rs-plugin-settings-inline-css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/lnrex0g1/e3kyu.css" media="all" />
+    <style id='rs-plugin-settings-inline-css'>
         #rs-demo-id {}
     </style>
-    <link rel="stylesheet" id="rs-particles-front-css" href="https://sweetinz.catanisthemes.com/wp-content/plugins/revslider-particles-addon/public/assets/css/revolution.addon.particles.css" media="all" />
-    <link rel="stylesheet" id="js_composer_front-css" href="https://sweetinz.catanisthemes.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css" media="all" />
-    <link rel="stylesheet" id="sweetinz-css-bootstrap-css" href="https://sweetinz.catanisthemes.com/wp-content/themes/sweetinz/css/bootstrap.min.css" media="all" />
-    <link rel="stylesheet" id="catanis-css-shortcode-css" href="https://sweetinz.catanisthemes.com/wp-content/plugins/catanis-core/css/shortcode.css" media="all" />
-    <link rel="stylesheet" id="sweetinz-style-css" href="https://sweetinz.catanisthemes.com/wp-content/themes/sweetinz/style.css" media="all" />
-    <link rel="stylesheet" id="sweetinz-css-responsive-css" href="https://sweetinz.catanisthemes.com/wp-content/themes/sweetinz/css/responsive.css" media="all" />
-    <link rel="stylesheet" id="sweetinz-dynamic-css-css" href="https://sweetinz.catanisthemes.com/wp-content/uploads/sweetinz.css" media="all" />
-    <style id="sweetinz-dynamic-css-inline-css" type="text/css">
-        .cata-header.v3 .header-logo {
-            padding: 50px 0;
+    <style id='woocommerce-inline-inline-css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
         }
     </style>
-    <link rel="stylesheet" id="contact-form-7-css" href="https://sweetinz.catanisthemes.com/wp-content/plugins/contact-form-7/includes/css/styles.css" media="all" />
-    <script src="https://sweetinz.catanisthemes.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
-    <script src="https://sweetinz.catanisthemes.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-    <script src="https://sweetinz.catanisthemes.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js" id="revmin-js"></script>
-    <script src="https://sweetinz.catanisthemes.com/wp-content/plugins/revslider-particles-addon/public/assets/js/revolution.addon.particles.min.js" id="rs-particles-front-js"></script>
-    <!--[if lt IE 9
-      ]><script
-        src="https://sweetinz.catanisthemes.com/wp-content/themes/sweetinz/js/html5shiv.js"
-        id="sweetinz-js-html5shiv-js"
-      ></script
-    ><![endif]-->
-    <link rel="https://api.w.org/" href="https://sweetinz.catanisthemes.com/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://sweetinz.catanisthemes.com/wp-json/wp/v2/pages/949" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sweetinz.catanisthemes.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sweetinz.catanisthemes.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 6.2.2" />
-    <link rel="canonical" href="https://sweetinz.catanisthemes.com/" />
-    <link rel="shortlink" href="https://sweetinz.catanisthemes.com/" />
-    <link rel="alternate" type="application/json+oembed" href="https://sweetinz.catanisthemes.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsweetinz.catanisthemes.com%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="https://sweetinz.catanisthemes.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsweetinz.catanisthemes.com%2F&#038;format=xml" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Home Main" />
-    <meta property="og:url" content="https://sweetinz.catanisthemes.com/" />
-    <meta property="og:description" content="" />
-    <meta property="og:site_name" content="Sweetinz" />
-    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-    <meta name="generator" content="Powered by Slider Revolution 5.4.7.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <script type="text/javascript">
-        function setREVStartSize(e) {
-            try {
-                e.c = jQuery(e.c);
-                var i = jQuery(window).width(),
-                    t = 9999,
-                    r = 0,
-                    n = 0,
-                    l = 0,
-                    f = 0,
-                    s = 0,
-                    h = 0;
-                if (
-                    (e.responsiveLevels &&
-                        (jQuery.each(e.responsiveLevels, function(e, f) {
-                                f > i && ((t = r = f), (l = e)),
-                                    i > f && f > r && ((r = f), (n = e));
-                            }),
-                            t > r && (l = n)),
-                        (f = e.gridheight[l] || e.gridheight[0] || e.gridheight),
-                        (s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth),
-                        (h = i / s),
-                        (h = h > 1 ? 1 : h),
-                        (f = Math.round(h * f)),
-                        "fullscreen" == e.sliderLayout)
-                ) {
-                    var u = (e.c.width(), jQuery(window).height());
-                    if (void 0 != e.fullScreenOffsetContainer) {
-                        var c = e.fullScreenOffsetContainer.split(",");
-                        if (c)
-                            jQuery.each(c, function(e, i) {
-                                u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u;
-                            }),
-                            e.fullScreenOffset.split("%").length > 1 &&
-                            void 0 != e.fullScreenOffset &&
-                            e.fullScreenOffset.length > 0 ?
-                            (u -=
-                                (jQuery(window).height() *
-                                    parseInt(e.fullScreenOffset, 0)) /
-                                100) :
-                            void 0 != e.fullScreenOffset &&
-                            e.fullScreenOffset.length > 0 &&
-                            (u -= parseInt(e.fullScreenOffset, 0));
-                    }
-                    f = u;
-                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-                e.c.closest(".rev_slider_wrapper").css({
-                    height: f
-                });
-            } catch (d) {
-                console.log("Failure at Presize of Slider:" + d);
-            }
-        }
-    </script>
-    <style type="text/css" data-type="vc_custom-css">
-        .cata-section .selection-texture.tt-bottom {
-            bottom: -75px;
+    <link rel="stylesheet" type="text/css" href="//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/f2saicb9/dq7fu.css" media="all" />
+    <style id='catanis-dynamic-css-inline-css'>
+        #cata_inline_style {
+            display: none;
         }
 
-        #rsvp .cata-socials li a {
-            color: #f9f9f9;
+        .cata-blog-item .cata-blog-item-title {
+            margin-top: 0;
+        }
+
+        #main-container-wrapper .page-template:not(.cata-template-sidebar) #cata-main-content {
+            float: none;
+        }
+
+        @media only screen and (max-width: 767px) and (min-width: 320px) {
+            .cata-extend-anima-imgs .cata-item-img {
+                display: none;
+            }
+
+            #main-container-wrapper .page-template #cata-main-content,
+            #main-container-wrapper .page-template .cata-sidebar {
+                padding: 100px 0 60px;
+            }
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none !important !;
+            -moz-appearance: none !important !;
+            appearance: none !important !;
+            margin: 0 !important !
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield
+        }
+
+        @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+            @media {
+                .col-sm-6 {
+                    width: 49.95%;
+                }
+            }
+        }
+
+        #respond #commentform .comment-author-wrapper p.comment-form-url {
+            margin-right: 0;
+        }
+
+        @-webkit-keyframes sk-scaleout {
+            0% {
+                -webkit-transform: scale(1)
+            }
+
+            100% {
+                -webkit-transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+
+        @keyframes sk-scaleout {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            100% {
+                -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+                opacity: 0;
+            }
+        }
+
+        .cata-purchase-theme-btn {
+            display: none;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            .cata-purchase-theme-btn {
+                display: inline-block;
+                background-color: #729c29;
+                position: fixed;
+                bottom: 72px;
+                right: 30px;
+                z-index: 99999;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                box-shadow: -6.772px 8.668px 16px 0px rgba(28, 30, 35, 0.15);
+                -webkit-box-shadow: -6.772px 8.668px 16px 0px rgba(28, 30, 35, 0.15);
+                -moz-box-shadow: -6.772px 8.668px 16px 0px rgba(28, 30, 35, 0.15);
+            }
+
+            .cata-purchase-theme-btn:before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: #7cb442;
+                top: 0;
+                right: 0;
+                -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+                animation: sk-scaleout 1.0s infinite ease-in-out;
+                border-radius: 50%;
+                z-index: -1;
+            }
+
+            .cata-purchase-theme-btn img.envato-logo {
+                position: absolute;
+                right: -8px;
+                bottom: -3px;
+                background: #7cb442;
+                border-radius: 50%;
+                padding: 6px;
+            }
+
+            .cata-purchase-theme-btn img {
+                margin: 0;
+            }
         }
     </style>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">
-        .vc_custom_1521185342549 {
-            margin-top: -5px !important;
+    <script src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/g0f3wqug/dq7fv.js' type="text/javascript"></script>
+    <script id='wc-add-to-cart-js-extra'>
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "http:\/\/onelove.catanisthemes.com\/cart\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
+    </script>
+    <script src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/g02eclt/dq7fu.js' type="text/javascript"></script>
+    <!--[if lt IE 9]><script type='text/javascript' src='//onelove.catanisthemes.com/wp-content/cache/wpfc-minified/06250ff44343b71ebd6495ef90d63233/dq7fv.js' id='catanis-js-html5shiv-js'></script><![endif]-->
+    <link rel="https://api.w.org/" href="http://onelove.catanisthemes.com/wp-json/" />
+    <link rel="alternate" type="application/json" href="http://onelove.catanisthemes.com/wp-json/wp/v2/pages/5416" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://onelove.catanisthemes.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://onelove.catanisthemes.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 6.2" />
+    <meta name="generator" content="WooCommerce 6.2.0" />
+    <link rel="canonical" href="http://onelove.catanisthemes.com/home-onepage-02/" />
+    <link rel='shortlink' href='http://onelove.catanisthemes.com/?p=5416' />
+    <link rel="alternate" type="application/json+oembed" href="http://onelove.catanisthemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fonelove.catanisthemes.com%2Fhome-onepage-02%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="http://onelove.catanisthemes.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fonelove.catanisthemes.com%2Fhome-onepage-02%2F&#038;format=xml" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Home OnePage 02" />
+    <meta property="og:url" content="http://onelove.catanisthemes.com/home-onepage-02/" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="One Love - A Perfect Wedding Multipurpose WordPress Theme" /> <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <meta name="generator" content="Powered by Slider Revolution 6.2.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <script>
+        function setREVStartSize(e) {
+            //window.requestAnimationFrame(function(){
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl)
+                        if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl)
+                        if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl)
+                        if (sl > nl[i] && nl[i] > 0) {
+                            sl = nl[i];
+                            ix = i;
+                        }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+                document.getElementById(e.c).height = newh + "px";
+                window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+        };
+    </script>
+    <style id="wp-custom-css">
+        #respond #commentform .comment-author-wrapper p.comment-form-url {
+            margin-right: 0;
+        }
+
+        #respond #commentform .comment-author-wrapper p.comment-form-cookies-consent {
+            width: 100%;
+        }
+
+        #respond #commentform .comment-author-wrapper p.comment-form-cookies-consent input {
+            width: 15px;
+            margin: 0;
+        }
+
+        #respond #commentform .comment-author-wrapper p.comment-form-cookies-consent label {
+            display: inline-block;
         }
     </style>
-    <noscript>
+    <style data-type="vc_custom-css">
+        .cata-countdown.cata-style1 .is-countdown .countdown-amount {
+            font-family: Allura;
+            font-size: 50px;
+            font-weight: normal;
+        }
+
+        .cata-countdown.text-light .countdown-section {
+            border-right-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .cata-testimonial.cata-style7 .cata-item .cata-detail {
+            font-family: Allura;
+            font-size: 34px;
+            line-height: 44px;
+        }
+
+        .cata-footer hr.dark {
+            border-color: rgba(255, 255, 255, 0.09);
+        }
+
+        .cata-footer.v3 .footer-top {
+            padding-top: 130px;
+        }
+
+        .cata-footer .footer-top.color-dark {
+            background-color: #FFF;
+        }
+
+        .cata-footer .cata-footer-bg {
+            background-position: center top;
+        }
+
+        .cata-footer .cata-footer-bg:before {
+            content: none;
+        }
+    </style><noscript>
         <style>
             .wpb_animate_when_almost_visible {
                 opacity: 1;
