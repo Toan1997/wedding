@@ -12,6 +12,8 @@
     <link rel="stylesheet" type="text/css" href="../wp-content/cache/wpfc-minified/eibekolc/fx8i0.css" media="all" />
     <link rel="stylesheet" type="text/css" href="../wp-content/cache/wpfc-minified/lnrex0g1/e3kyu.css" media="all" />
     <link rel="stylesheet" type="text/css" href="../wp-content/style.css" media="all" />
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <style id="rs-plugin-settings-inline-css">
         #rs-demo-id {}
     </style>

@@ -19,7 +19,7 @@
                             <div class="entry-content">
                                 <section class="cata-section cata-section-container-stretch row-full-height row-columns-middle cata-row-flex" id="section_n5u0b6cwa0" style="
                       margin-bottom: 0;
-                      background-image: url(../wp-content/uploads/2017/02/home22-background_4.jpg);
+                      background-image: url(/images/background.jpg);
                       background-repeat: no-repeat;
                       background-size: cover;
                       background-position: center center;
@@ -38,7 +38,7 @@
                                   font-style: normal;
                                   font-size: 170px;
                                   text-align: center;
-                                  color: #ffffff;
+                                  color: #ff3b9ebf;
                                   line-height: 170px;
                                 " class="ipad-fontsize-120px mobile-fontsize-75px">
                                                             <div class="name-header">
@@ -52,7 +52,7 @@
                                                         <h2 style="
                                   font-size: 26px;
                                   text-align: center;
-                                  color: #ffffff;
+                                  color: #ff1d8fc7;
                                   line-height: 36px;
                                 ">
                                                             Tụi mình cưới rồi nè! <br /> 27, 28 - 12 - 2023
@@ -60,7 +60,7 @@
                                                     </div>
                                                     <div id="cata_empty_space_ssos9" class="cata-empty-space cata-element" style="height: 60px"></div>
                                                     <div id="cata_countdown_evyc9083xl" class="cata-countdown cata-element cata-style1 text-light">
-                                                        <div class="cata-countdown-content" data-date="2023/12/27/0/0"></div>
+                                                        <div class="cata-countdown-content" data-date="2023/12/27/0/0" style="color: #ff3b9e;"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -90,7 +90,7 @@
                                   color: #282828;
                                   line-height: 80px;
                                 ">
-                                                            Groom &amp; Bride
+                                                            Toàn &amp; Nguyệt
                                                         </h2>
                                                     </div>
                                                     <div id="cata_empty_space_atrnj" class="cata-empty-space cata-element" style="height: 30px"></div>
@@ -113,12 +113,12 @@
                                 <section class="cata-section cata-section-container-stretch row-content-middle cata-row-flex mobile-margin-bottom-30px" id="section_kqlf6su9qz" style="margin-bottom: 0">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-0">
-                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-6" data-animation-type="fadeInDown" data-animation-duration="700" data-animation-delay="300" id="column_zifttuu01e">
+                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-6 animated fadeInDown" data-animation-type="fadeInDown" data-animation-duration="700" data-animation-delay="300" id="column_zifttuu01e" style="animation-duration: 700ms; animation-delay: 300ms;">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
                                                     <div id="cata_single_image_wzvzqw50bq" class="cata-single-image cata-element img-center effect-zoomin">
                                                         <div>
-                                                            <figure>
-                                                                <img width="585" height="500" src="../wp-content/uploads/2017/02/home22-groom.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-groom" />
+                                                            <figure style="width: 100%; height: 500px; overflow: hidden;">
+                                                                <img width="285" height="200" src="/images/chu-re.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-groom" style="width: 100%; height: 100%; object-fit: cover;">
                                                             </figure>
                                                         </div>
                                                     </div>
@@ -140,18 +140,16 @@
                                   color: #282828;
                                   line-height: 50px;
                                 ">
-                                                            John Henry
+                                                            Duy Toàn
                                                         </h2>
                                                     </div>
                                                     <div id="cata_empty_space_m9qmn" class="cata-empty-space cata-element" style="height: 20px"></div>
                                                     <div class="cata-text-column cata-element color-dark">
                                                         <div class="text_wrapper">
                                                             <p style="text-align: center">
-                                                                Duis tristique elit at ullamcorper tempus.
-                                                                Mauris faucibus dapibus libero. Etiam at nunc
-                                                                in urna tempor fermentum sed sit amet velit.
-                                                                Quisque in felis ut erat dictum luctus id a
-                                                                lacus accumsan.
+                                                                Ai cũng có quyền yêu cái đẹp
+
+                                                                Còn anh thì yêu em!
                                                             </p>
                                                         </div>
                                                     </div>
@@ -193,18 +191,16 @@
                                   color: #282828;
                                   line-height: 50px;
                                 ">
-                                                            Carol Colin
+                                                            Thị Nguyệt
                                                         </h2>
                                                     </div>
                                                     <div id="cata_empty_space_bv1jg" class="cata-empty-space cata-element" style="height: 20px"></div>
                                                     <div class="cata-text-column cata-element color-dark">
                                                         <div class="text_wrapper">
                                                             <p style="text-align: center">
-                                                                Duis tristique elit at ullamcorper tempus.
-                                                                Mauris faucibus dapibus libero. Etiam at nunc
-                                                                in urna tempor fermentum sed sit amet velit.
-                                                                Quisque in felis ut erat dictum luctus id a
-                                                                lacus accumsan.
+                                                                Nếu nụ hôn là một dạng ngôn ngữ
+
+                                                                Thì thật may, em không phải người kiệm lời!
                                                             </p>
                                                         </div>
                                                     </div>
@@ -224,12 +220,12 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="cata-column wpb_column vc_column_container text-left has-animation mobile-padding-top-0px col-xs-mobile-fullwidth col-sm-6" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="200" id="column_3e10bh78ar">
+                                            <div class="cata-column wpb_column vc_column_container text-left has-animation col-xs-mobile-fullwidth col-sm-6 animated fadeInDown" data-animation-type="fadeInDown" data-animation-duration="700" data-animation-delay="300" id="column_zifttuu01e" style="animation-duration: 700ms; animation-delay: 300ms;">
                                                 <div class="cata-column-wrapper vc-column-innner-wrapper">
-                                                    <div id="cata_single_image_g2jw8or9xm" class="cata-single-image cata-element img-center effect-zoomin">
+                                                    <div id="cata_single_image_wzvzqw50bq" class="cata-single-image cata-element img-center effect-zoomin">
                                                         <div>
-                                                            <figure>
-                                                                <img width="585" height="500" src="../wp-content/uploads/2017/02/home22-bride.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-bride" />
+                                                            <figure style="width: 100%; height: 500px; overflow: hidden;">
+                                                                <img width="285" height="200" src="/images/co-dau.jpg" class="cata-image-img attachment-full" alt="" decoding="async" loading="lazy" title="home22-groom" style="width: 100%; height: 100%; object-fit: cover;">
                                                             </figure>
                                                         </div>
                                                     </div>
@@ -268,8 +264,7 @@
                                   color: #ffffff;
                                   line-height: 80px;
                                 ">
-                                                            Love is the best thing in the world, and the
-                                                            thing that lives the longest
+                                                            Tình yêu là điều tuyệt vời nhất trên thế giới và là thứ tồn tại lâu nhất
                                                         </h2>
                                                     </div>
                                                 </div>
@@ -463,7 +458,138 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section class="cata-section cata-section-container-stretch" id="section_yzs2chzqot" style="margin-bottom: 0">
+                                <section id="main-slider" class="splide" aria-label="My Awesome Gallery">
+                                    <div class="splide__track">
+                                        <ul class="splide__list">
+                                            <li class="splide__slide">
+                                                <img src="images/albums/1.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/2.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/3.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/4.jpg" alt="" />
+                                            </li>
+
+                                            <li class="splide__slide">
+                                                <img src="images/albums/6.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/7.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/8.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/9.jpg" alt="" />
+                                            </li>
+                                            <li class="splide__slide">
+                                                <img src="images/albums/10.jpg" alt="" />
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </section>
+
+                                <ul id="thumbnails" class="thumbnails">
+                                    <div class="thumbnails-wrapper">
+                                        <div class="thumbnails-list">
+                                            <li class="thumbnail">
+                                                <img src="images/albums/1.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/2.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/3.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/4.jpg" alt="" />
+                                            </li>
+
+                                            <li class="thumbnail">
+                                                <img src="images/albums/6.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/7.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/8.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/9.jpg" alt="" />
+                                            </li>
+                                            <li class="thumbnail">
+                                                <img src="images/albums/10.jpg" alt="" />
+                                            </li>
+
+                                        </div>
+                                    </div>
+                                </ul>
+
+                                <script>
+                                    var splide = new Splide("#main-slider", {
+                                        width: 754,
+                                        height: 800,
+                                        pagination: false,
+                                        cover: true,
+                                        pagination: true,
+                                    });
+
+                                    var thumbnailsWrapper = document.querySelector('.thumbnails-wrapper');
+                                    var thumbnailsList = document.querySelector('.thumbnails-list');
+                                    var thumbnails = document.getElementsByClassName("thumbnail");
+                                    var current;
+
+                                    for (var i = 0; i < thumbnails.length; i++) {
+                                        initThumbnail(thumbnails[i], i);
+                                    }
+
+                                    function initThumbnail(thumbnail, index) {
+                                        thumbnail.addEventListener("click", function() {
+                                            splide.go(index);
+                                        });
+                                    }
+
+                                    splide.on("mounted move", function() {
+                                        var thumbnail = thumbnails[splide.index];
+
+                                        if (thumbnail) {
+                                            if (current) {
+                                                current.classList.remove("is-active");
+                                            }
+
+                                            thumbnail.classList.add("is-active");
+                                            current = thumbnail;
+                                        }
+                                    });
+
+                                    splide.mount();
+
+                                    // Optional: Add a listener for window resize to recalculate the number of visible thumbnails
+                                    window.addEventListener('resize', function() {
+                                        updateVisibleThumbnails();
+                                    });
+
+                                    // Initial setup
+                                    updateVisibleThumbnails();
+
+                                    function updateVisibleThumbnails() {
+                                        var thumbnailWidth = thumbnails[0].offsetWidth; // Assuming all thumbnails have the same width
+                                        var visibleThumbnails = Math.floor(thumbnailsWrapper.offsetWidth / thumbnailWidth);
+                                        thumbnailsList.style.width = 100 + thumbnailWidth * thumbnails.length + 'px';
+
+                                        if (visibleThumbnails < thumbnails.length) {
+                                            thumbnailsWrapper.style.overflowX = 'auto';
+                                        } else {
+                                            thumbnailsWrapper.style.overflowX = 'hidden';
+                                        }
+                                    }
+                                </script>
+                                <!-- <section class="cata-section cata-section-container-stretch" id="section_yzs2chzqot" style="margin-bottom: 0">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">
                                             <div class="cata-column wpb_column vc_column_container col-xs-mobile-fullwidth col-sm-3" id="column_g3ttibuq6p">
@@ -477,7 +603,7 @@
                                                         </div>
                                                         <ul class="slides" data-slick='{"autoplay":true,"autoplaySpeed":3000,"slidesToShow":1,"slidesToScroll":1,"dots":false,"arrows":true,"infinite":true,"draggable":true,"rtl":false,"speed":500,"responsive":[{"breakpoint":1024,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":1,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}],"fade":true,"cssEase":"linear"}'>
                                                             <li class="cata-item">
-                                                                <img width="720" height="720" src="../wp-content/uploads/2017/02/home22-gallery_4.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_4" />
+                                                                <img width="720" height="720" src="/images/background-1.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_4" />
                                                             </li>
                                                             <li class="cata-item">
                                                                 <img width="720" height="720" src="../wp-content/uploads/2017/02/home22-gallery_2.jpg" class="attachment-full" alt="" decoding="async" loading="lazy" title="home22-gallery_2" />
@@ -500,7 +626,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> -->
                                 <section class="cata-section cata-section-container-stretch has-animation" id="section_wleto7djs6" style="margin-top: 45px; margin-bottom: 20px" data-animation-type="fadeInUp" data-animation-duration="700" data-animation-delay="50">
                                     <div class="cata-container">
                                         <div class="cata-row cata-columns-gap-30">

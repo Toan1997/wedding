@@ -425,3 +425,45 @@
     grid-row-end: 22;
   }
 }
+.cata-countdown.text-light.cata-style1 .is-countdown .countdown-amount,
+.cata-countdown.text-light.cata-style2 .is-countdown .countdown-amount,
+.cata-countdown.text-light.cata-style1 .is-countdown .countdown-period,
+.cata-countdown.text-light.cata-style2 .is-countdown .countdown-period {
+  color: #ff1d8fc7 !important;
+}
+.cata-countdown.cata-style1 .is-countdown .countdown-period,
+.cata-countdown.cata-style2 .is-countdown .countdown-period {
+  color: #ff1d8fc7 !important;
+}
+.splide {
+  margin: 0 auto;
+}
+
+.thumbnails {
+  display: flex;
+  overflow-x: auto;
+  margin: 1rem auto 0;
+  padding: 0;
+  width: 850px; /* Đặt chiều rộng cố định cho số lượng thumbnail bạn muốn hiển thị */
+  justify-content: space-between; /* Chia đều khoảng trống giữa các thumbnail */
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200;
+  overflow: hidden;
+  list-style: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.thumbnail.is-active {
+  opacity: 1;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
